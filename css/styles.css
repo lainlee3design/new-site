@@ -217,3 +217,107 @@ body {
   right: 0;
   width: 575px;
 }
+
+.main .stream {
+  padding-bottom: 50px;
+  background: url(../img/separator.png) bottom left repeat-x;
+}
+
+.main .stream .latest-post {
+  background: url(../img/header-bg.png);
+  position: relative;
+  width: 636px;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main .stream .latest-post img {
+  position: absolute;
+  top: -11px;
+  right: 15px;
+}
+
+.main .stream .latest-post .head {
+  background-color: #2797de;
+  color: #fff;
+  position: relative;
+  margin-top: 10px;
+  left: -40px;
+  width: 200px;
+  padding: 5px 10px 5px 35px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.main .stream .latest-post .head .triangle {
+  width: 0;
+  height: 0;
+  border-color: #05405f #05405f transparent transparent;
+  border-style: solid;
+  border-width: 15px;
+  position: absolute;
+  top: 38px;
+  left: 0;
+}
+
+.main .stream .latest-post .head strong {
+  color: #000;
+}
+
+.main .stream .latest-post .post-title {
+  margin-top: 20px;
+  color: #2296df;
+  font-size: 18px;
+}
+
+.main .stream .latest-post .post-date {
+  font-size: 12px;
+  margin: 5px 0 20px;
+}
+
+.main .stream .latest-post .read-more {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  background-color: #2296df
+}
+
+.main .stream .testimonial {
+  float: right;
+  width: 300px;
+}
+
+.main .stream .testimonial h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.main .stream .testimonial h2 strong {
+  color: #2296df;
+}
+
+.main .stream .testimonial .quote {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main .stream .testimonial .name {
+  text-align: right;
+  color: #2296df;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.main .stream .testimonial .title {
+  font-size: 12px;
+  text-align: right;
+  font-weight: bold;
+}
