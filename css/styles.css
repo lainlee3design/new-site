@@ -1,0 +1,82 @@
+body {
+  font-family: "helvetica Neue", Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(../img/header-bg.png) repeat-x;
+  height: 38px;
+  border-bottom: 10px solid #000;
+}
+
+.header .container {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.header .social {
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+
+.header .social a {
+  display: inline-block;
+  width: 23px;
+  height: 24px;
+  margin: 0 5px;
+}
+
+.header .social .facebook {
+  background: url(../img/facebook-small.png) no-repeat;
+  margin-left: 0;
+}
+
+.header .social .twitter {
+  background: url(../img/twitter-small.png) no-repeat;
+  width: 28px;
+}
+
+.header .social .dribbble {
+  background: url(../img/dribbble-small.png) no-repeat;
+}
+
+.header .social .tumblr {
+  background: url(../img/tumblr-small.png) no-repeat;
+}
+
+.header .social .vimeo {
+  background: url(../img/vimeo-small.png) no-repeat;
+}
+
+.header .contact-nav {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header .contact-nav li {
+  float: left;
+  margin-right: 15px;
+}
+
+.header .contact-nav #contact {
+  color: #f5d502;
+}
+
+.header .contact-nav li a {
+  text-decoration: none;
+  color: inherit;
+}
