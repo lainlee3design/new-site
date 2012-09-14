@@ -1,3 +1,23 @@
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
 body {
   background: url(../img/background.png);
   font-family: "helvetica Neue", Arial, sans-serif;
@@ -144,9 +164,9 @@ body {
 
 .main .showcase .banner {
   width: 1060px;
-  position: absolute;
+  position: relative;
   left: -30px;
-  bottom: 50px;
+  bottom: 20px;
   background-color: #2191d8;
   font-size: 18px;
   padding: 10px 0;
@@ -181,7 +201,7 @@ body {
 }
 
 .main .showcase .buttons {
-  margin: 12px auto 0;
+  margin: 0 auto;
   height: 17px;
   width: 81px;
 }
@@ -320,4 +340,46 @@ body {
   font-size: 12px;
   text-align: right;
   font-weight: bold;
+}
+
+.main .work {
+  height: 507px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+  background: url(../img/separator.png) bottom left repeat-x;
+}
+
+.main .work .portfolio-link, .main .work .project-card .project-link {
+  display: inline-block;
+  background: url(../img/header-bg.png);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.main .work h1 {
+  text-transform: uppercase;
+}
+
+.main .work h1 strong {
+  color: #2296df;
+}
+
+.main .work .project-card {
+  float: left;
+  margin-right: 30px;
+  width: 313px;
+}
+
+.main .work .project-card.last {
+  margin-right: 0;
+}
+
+.main .work .project-card .thumbnail {
+  width: 287px;
+  height: 287px;
+  padding: 13px;
+  background-color: #000;
 }
