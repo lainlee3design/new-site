@@ -343,7 +343,6 @@ body {
 }
 
 .main .work {
-  height: 507px;
   margin-top: 40px;
   padding-bottom: 50px;
   background: url(../img/separator.png) bottom left repeat-x;
@@ -359,11 +358,12 @@ body {
   color: #fff;
 }
 
-.main .work h1 {
+.main .work h2 {
   text-transform: uppercase;
 }
 
-.main .work h1 strong {
+.main .work h2:after {
+  content: "//";
   color: #2296df;
 }
 
@@ -382,4 +382,113 @@ body {
   height: 287px;
   padding: 13px;
   background-color: #000;
+}
+
+.main .contact {
+  margin-top: 40px;
+  padding-bottom: 50px;
+  background: url(../img/separator.png) bottom left repeat-x;
+}
+
+.main .contact .contact-form, .main .contact .contact-info {
+  float: left;
+}
+
+.main .contact .contact-form {
+  width: 650px;
+}
+
+.main .contact .contact-form p {
+  float: right;
+  width: 330px;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+}
+
+.main .contact .contact-info {
+  width: 300px;
+  margin-left: 50px;
+}
+
+.main .contact h2, .main .contact .contact-form label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main .contact h2:after, .main .contact .contact-form label:after {
+  content: "//";
+  color: #2296df;
+}
+
+.main .contact .contact-form input,
+.main .contact .contact-form textarea {
+  background: url(../img/header-bg.png);
+  border: none;
+  padding: 5px;
+  width: 300px;
+  color: white;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.main .contact .contact-form input[type=submit] {
+  font-size: 18px;
+  width: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main .contact .contact-form .column-1 {
+  float: left;
+  margin-right: 29px;
+}
+
+.main .contact .contact-info {
+  font-weight: bold;
+}
+
+.main .contact .contact-info .phone,
+.main .contact .contact-info .email {
+  margin: 20px 0;
+}
+
+.main .contact .contact-info p,
+.main .contact .contact-info p {
+  margin: 5px 0 0 0;
+}
+
+.main .contact .contact-info .phone img,
+.main .contact .contact-info .email img {
+  float: left;
+  margin-right: 10px;
+}
+
+.main .contact .contact-info .social {
+  margin-top: 30px;
+}
+
+.main .contact .contact-info .social a {
+  margin-right: 20px;
+}
+
+.footer {
+  border-style: solid;
+  border-color: #000;
+  border-width: 10px 0 20px;
+  background: url(../img/header-bg.png);
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer .links>* {
+  float: left;
+  width: 313px;
+  margin-right: 30px;
+}
+
+.footer .links .about {
+}
+
+.footer .friends {
+  margin-right: 0;
 }
