@@ -411,12 +411,48 @@ a:hover {
   width: 650px;
 }
 
-.main .contact .contact-form p {
+.main .contact {
+  font-size: 13px;
+}
+
+.main .contact .contact-form>p:first-child {
   float: right;
   width: 330px;
   position: relative;
   top: 5px;
   font-weight: bold;
+}
+
+.main .contact .contact-form .signature {
+  font-size: 18px;
+  float: right;
+  color: #3a91de;
+}
+
+.main .contact .contact-form .signature .name {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: bold;
+}
+
+.main .contact .contact-form .signature .title {
+  font-size: 15px;
+  margin-top: 0;
+  color: #2c2c2c;
+}
+
+.main h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main h2:after {
+  content: "//";
+  color: #2296df;
+}
+
+.main {
+  font-size: 13px;
 }
 
 .main .contact .contact-info {
