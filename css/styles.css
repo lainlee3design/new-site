@@ -764,19 +764,25 @@ a:hover {
   display: none;
 }
 
+.search-bar form {
+  position: relative;
+}
+
 .search-bar form input[type=submit] {
   float: left;
-  background: url(../img/search.png) no-repeat 8px 0, url(../img/header-bg.png);
+  background:url("../img/icons.png") top left no-repeat;
+  background-position:-308px 0;
   border: none;
   width: 45px;
-  height: 32px;
-  position: relative;
-  top: -2px;
+  height: 35px;
+  position: absolute;
+  top: -4px;
   cursor: pointer;
 }
 
-.rss-subscribe img {
-  margin-top: -6px;
+.title span.right {
+  position: relative;
+  top: -6px;
 }
 
 .categories ul, .archives ul {
@@ -791,6 +797,23 @@ a:hover {
 
 .categories ul a:hover, .archives ul a:hover {
   text-decoration: underline;
+}
+
+.mini-grid {
+  margin: 40px 0;
+}
+
+.mini-grid .grid-item {
+  width: 70px;
+  height: 70px;
+  background-image: url(../img/header-bg.png);
+  background-size: 70px 70px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.mini-grid .grid-item:nth-child(4n) {
+  margin: 0 0 10px 1px;
 }
 
 .footer {

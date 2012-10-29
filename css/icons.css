@@ -1,0 +1,14 @@
+.icon {
+  width: 44px;
+  height: 35px;
+  display: inline-block;
+  background:url("../img/icons.png") top left no-repeat;
+}
+.icon.list{ background-position:0 0; }
+.icon.folder{ background-position:-44px 0; }
+.icon.dribbble{ background-position:-88px 0; }
+.icon.xbox{ background-position:-132px 0; }
+.icon.power{ background-position:-176px 0; }
+.icon.rss{ background-position:-220px 0; }
+.icon.like{ background-position:-264px 0; }
+.icon.search{ background-position:-308px 0; }

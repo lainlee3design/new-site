@@ -1,0 +1,10 @@
+TODO:
+
+- Post comment form
+- Redo About and Home
+- Global Facebook Like counter
+
+NOTES:
+
+- Need "Older posts" button on blog page
+- Overall size might need to be reduced
