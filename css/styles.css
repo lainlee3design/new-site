@@ -673,6 +673,10 @@ a:hover {
   padding-bottom: 20px;
 }
 
+.post-header {
+  position: relative;
+}
+
 .post-header .img {
   width: 75px;
   height: 75px;
@@ -684,10 +688,16 @@ a:hover {
 
 .post-header h3 {
   color: #3a92dd;
-  font-size: 26px;
+  font-size: 32px;
   text-transform: none;
   margin: 0;
   line-height: 26px;
+}
+
+.post-header .text {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
 }
 
 .post-image {
