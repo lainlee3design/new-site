@@ -122,6 +122,10 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.main .top .container {
+  position: relative;
+}
+
 .main .top .logo {
   font-size: 20px;
   font-weight: bold;
@@ -230,7 +234,14 @@ a:hover {
 }
 
 .main .tag {
-  margin-top: 40px;
+  padding-top: 20px;
+  box-shadow: 0 2px 1px 1px rgba(0,0,0,0.3);
+  position: relative;
+  color: #333;
+}
+
+.main .tag .container {
+  position: relative;
 }
 
 .main .tag .hello {
@@ -239,48 +250,55 @@ a:hover {
 }
 
 .main .tag .tagline {
-  line-height: 46px;
+  line-height: 36px;
   font-size: 32px;
   font-weight: bold;
   text-align: right;
   position: absolute;
   right: 0;
   width: 575px;
+  margin-top: 29px;
 }
 
 .main .stream {
-  padding-bottom: 50px;
-  background: url(../img/separator.png) bottom left repeat-x;
+  padding-bottom: 35px;
+  background: url(../img/header-bg.png);
 }
 
 .main .stream .latest-post {
-  background: url(../img/header-bg.png);
   position: relative;
   width: 636px;
   padding: 10px;
   color: #fff;
   font-weight: bold;
+  float: left;
 }
 
-.main .stream .latest-post img {
-  position: absolute;
-  top: -11px;
-  right: 15px;
+.main .stream .testimonial {
+  float: left;
+  padding-top: 10px;
+  color: #fff;
+  margin-left: 40px;
 }
 
-.main .stream .latest-post .head {
+.main .stream .latest-post .head, .main .stream .testimonial .head {
+  font-weight: bold;
   background-color: #2797de;
   color: #fff;
   position: relative;
   margin-top: 10px;
   left: -40px;
-  width: 200px;
-  padding: 5px 10px 5px 35px;
-  font-size: 24px;
+  width: 235px;
+  padding: 2px 5px 2px 35px;
+  font-size: 27px;
   text-transform: uppercase;
 }
 
-.main .stream .latest-post .head .triangle {
+.main .stream .testimonial .head {
+  width: 250px;
+}
+
+.main .stream .latest-post .head .triangle, .main .stream .testimonial .head .triangle {
   width: 0;
   height: 0;
   border-color: #05405f #05405f transparent transparent;
@@ -291,19 +309,23 @@ a:hover {
   left: 0;
 }
 
-.main .stream .latest-post .head strong {
-  color: #000;
+.main .stream .latest-post .head strong, .main .stream .testimonial .head strong {
+  color: #333333;
 }
 
 .main .stream .latest-post .post-title {
   margin-top: 20px;
-  color: #2296df;
   font-size: 18px;
+  width: 617px;
 }
 
 .main .stream .latest-post .post-date {
+  width: 617px;
   font-size: 12px;
   margin: 5px 0 20px;
+}
+.main .stream .latest-post .post-preview {
+  width: 617px;
 }
 
 .main .stream .latest-post p {
@@ -311,19 +333,18 @@ a:hover {
 }
 
 .main .stream .latest-post .read-more {
-  padding: 5px 10px;
+  padding: 5px 30px;
   text-transform: uppercase;
   text-decoration: none;
   color: inherit;
   font-size: 18px;
   position: absolute;
-  right: 15px;
-  bottom: 15px;
+  right: 0;
+  bottom: 0;
   background-color: #2296df
 }
 
 .main .stream .testimonial {
-  float: right;
   width: 300px;
 }
 
@@ -340,6 +361,7 @@ a:hover {
 .main .stream .testimonial .quote {
   font-weight: bold;
   font-size: 14px;
+  margin-top: 16px;
 }
 
 .main .stream .testimonial .name {
@@ -357,9 +379,10 @@ a:hover {
 }
 
 .main .work {
-  margin-top: 40px;
+  padding-top: 20px;
   padding-bottom: 50px;
-  background: url(../img/separator.png) bottom left repeat-x;
+  background: url(../img/work-bg.png);
+  color: #2c2c2c;
 }
 
 .main .work .portfolio-link, .main .work .project-card .project-link {
@@ -368,6 +391,7 @@ a:hover {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 18px;
   padding: 5px 10px;
   color: #fff;
 }
@@ -398,9 +422,82 @@ a:hover {
   background-color: #000;
 }
 
+.main .work .project-card .project-meta {
+  text-transform: uppercase;
+  color: #2c2c2c;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.main .work .project-card .name {
+  color: #2c2c2c;
+}
+
+.main .work .project-card .category {
+  color: #1c98d8;
+}
+
+.main .about-text {
+  padding-bottom: 20px;
+  box-shadow: 0 2px 1px 1px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.main .stats-profile {
+  background: url(../img/work-bg.png);
+  padding-bottom: 20px;
+}
+
+.main .stats-profile .text {
+  font-size: 16px;
+}
+
+.main .stats-profile .video {
+  margin-bottom: 30px;
+}
+
+.main .stats {
+  float: left;
+  width: 347px;
+}
+
+.main .profile {
+  float: left;
+  width: 653px
+}
+
+.stats .stat {
+  color: #2c2c2c;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.stats .prop {
+  font-weight: bold;
+}
+
+.main .faq {
+  color: white;
+  background: url(../img/header-bg.png);
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.main .faq .qa {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.main .faq .question {
+  font-weight: bold;
+}
+
 .main .contact {
-  margin-top: 40px;
+  box-shadow: 0 -2px 1px 1px rgba(0,0,0,0.3);
   padding-bottom: 50px;
+  color: #333;
 }
 
 .main .contact .contact-form, .main .contact .contact-info {
@@ -415,12 +512,10 @@ a:hover {
   font-size: 13px;
 }
 
-.main .contact .contact-form>p:first-child {
-  float: right;
-  width: 330px;
-  position: relative;
-  top: 5px;
+.main .contact .contact-form>p {
   font-weight: bold;
+  font-size: 13px;
+  margin-top: 5px;
 }
 
 .main .contact .contact-form .signature {
@@ -444,7 +539,7 @@ a:hover {
 .main h2 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 27px;
+  font-size: 29px;
 }
 
 .main h2:after {
@@ -464,6 +559,10 @@ a:hover {
 .main .contact h2, .main .contact .contact-form label {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.main .contact h2 {
+  margin-bottom: 0;
 }
 
 .main .contact h2:after, .main .contact .contact-form label:after {
@@ -534,7 +633,7 @@ a:hover {
   margin: 0 1px;
   font-size: 14px;
   font-weight: bold;
-  color: #000;
+  color: #333;
 }
 
 .main .subnav li:hover, .main .subnav li.active {

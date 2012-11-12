@@ -18,7 +18,7 @@ $(function() {
   function iframeLoaded() {
     $( '.fb-like-wrapper' ).animate({
       height: 256
-    }, 500, function() {
+    }, 1000, function() {
       $fbLikeBox.css( 'margin-bottom', '20px' );
     });
   }
