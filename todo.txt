@@ -1,0 +1,9 @@
+#TODO
+- DISQUS
+- Dribbble
+- Collaborate Page
+- Export Wordpress Data
+- Social Media
+- Button Refactor
+- Minification
+- Server

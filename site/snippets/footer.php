@@ -52,8 +52,9 @@
     </div>
   </div>
 </body>
-<script type="text/javascript" charset="utf-8" src="assets/javascript/jquery.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="assets/javascript/webpro.js"></script>
-<script type="text/javascript" charset="utf-8" src="assets/javascript/tweet.js"></script>
-<script type="text/javascript" charset="utf-8" src="assets/javascript/layout.js"></script>
+<?php echo js('assets/javascript/jquery.min.js'); ?>
+<?php echo js('assets/javascript/layout.js'); ?>
+<?php echo js('assets/javascript/webpro.js'); ?>
+<?php echo js('assets/javascript/tweet.js'); ?>
+<?php echo js('http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-508a2aa958ebbcfd'); ?>
 </html>

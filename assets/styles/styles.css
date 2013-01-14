@@ -328,6 +328,10 @@ a:hover {
   width: 617px;
 }
 
+.post .no-results {
+  font-weight: normal;
+}
+
 .main .stream .latest-post p {
   margin-bottom: 20px;
 }
@@ -444,6 +448,7 @@ a:hover {
   position: relative;
   z-index: 1;
   font-size: 16px;
+  line-height: 1.4em;
 }
 
 .main .stats-profile .top-button, .main .faq .top-button {
@@ -501,6 +506,7 @@ a:hover {
 
 .stats .prop {
   font-weight: bold;
+  font-size: 1.4em;
 }
 
 .main .faq {
@@ -588,7 +594,7 @@ a:hover {
   border-left: 2px solid #d3d3d3;
 }
 
-.main .contact h2, .main .contact .contact-form label {
+.main .contact h2, .contact-form label {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -601,13 +607,13 @@ a:hover {
   margin-bottom: 5px;
 }
 
-.main .contact h2:after, .main .contact .contact-form label:after {
+.main .contact h2:after, .contact-form label:after {
   content: "//";
   color: #2296df;
 }
 
-.main .contact .contact-form input,
-.main .contact .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   background: url(../images/header-bg.png);
   border: none;
   padding: 5px;
@@ -631,9 +637,51 @@ a:hover {
   right: 20px;
 }
 
-.main .contact .contact-form .column-1 {
+.contact-form .column-1 {
   float: left;
   margin-right: 29px;
+}
+
+.blogpost .contact-form .column-2 {
+  float: left;
+  width: 287px;
+}
+
+.blogpost .contact-form textarea {
+  width: 277px;
+  height: 67px;
+}
+
+.blogpost .contact-form textarea,
+.blogpost .contact-form input,
+.blogpost .contact-form label {
+  margin: 5px 0;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.blogpost .contact-form label {
+  font-size: 16px;
+}
+
+.blogpost .contact-form span {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.blogpost .contact-form input[type=submit] {
+  margin-top: 20px;
+  width: auto;
+  padding: 5px 30px;
+  float: right;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.blogpost .contact-form {
+  margin-top: 40px;
 }
 
 .main .contact .contact-info {
@@ -733,6 +781,11 @@ a:hover {
   margin-bottom: 22px;
 }
 
+#project-view .preview img {
+  width: inherit;
+  height: inherit;
+}
+
 .meta {
   width: 312px;
 }
@@ -807,10 +860,10 @@ a:hover {
 
 #blog {
   width: 626px;
-  margin-right: 30px;
+  margin-right: 62px;
 }
 
-.post {
+.post, .related-post {
   margin-bottom: 30px;
   background: url(../images/separator.png) repeat-x bottom left;
   padding-bottom: 20px;
@@ -875,7 +928,7 @@ a:hover {
   width: 312px;
 }
 
-#sidebar .title {
+#sidebar .title, .related-posts .title {
   padding: 12px 19px;
   background: url(../images/header-bg.png);
   font-size: 18px;
@@ -883,6 +936,11 @@ a:hover {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#sidebar .title a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .search-bar .field {
@@ -970,8 +1028,10 @@ a:hover {
 }
 
 .mini-grid .grid-item {
-  width: 70px;
-  height: 70px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
   background-image: url(../images/header-bg.png);
   background-size: 70px 70px;
   float: left;
@@ -980,6 +1040,94 @@ a:hover {
 
 .mini-grid .grid-item:nth-child(4n) {
   margin: 0 0 10px 1px;
+}
+
+.mini-grid .grid-item img {
+  width: inherit;
+  height: inherit;
+}
+
+.comment-wrapper {
+  margin-bottom: 22px;
+}
+
+.comment-wrapper .avatar {
+  float: left;
+  margin-right: 48px;
+}
+
+.comment {
+  float: left;
+  background-color: #2c2c2c;
+  padding: 8px 14px;
+  width: 478px;
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.comment:after {
+  content: "";
+  border-style: solid;
+  border-width: 30px;
+  border-color: transparent transparent #2c2c2c;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -30px;
+  top: -8px;
+  z-index: -1;
+}
+
+.comment-wrapper .comment .comment-meta {
+  font-size: 12px;
+}
+
+.comment-wrapper .comment .name {
+  color: #2296df;
+  font-weight: bold;
+}
+
+.comment-form .title h2 {
+  float: left;
+  margin: 0 0 20px 0;
+}
+
+.comment-form .title span {
+  margin: 11px 0 0 10px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.comment-form .title strong {
+  color: #2295df;
+}
+
+.related-posts {
+  margin: 40px 0;
+}
+
+.related-posts .related-post {
+  margin-bottom: 15px;
+}
+
+.related-posts .related-post h3 {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #2295df;
+}
+
+.related-posts .related-post {
+  font-size: 15px;
+}
+
+.related-posts .read-more {
+  background: url(../images/header-bg.png);
+  padding: 4px 16px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  float: right;
 }
 
 .footer {

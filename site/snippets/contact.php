@@ -1,5 +1,5 @@
 <?php $contact = $pages->findByDirname('contact')->first(); ?>
-<div class="contact">
+<div id="contact" class="contact">
   <div class="container clearfix">
     <div class="contact-form">
       <h2>Contact Us</h2>

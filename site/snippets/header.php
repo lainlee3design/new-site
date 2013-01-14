@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
   <?php echo css('assets/styles/styles.css') ?>
+  <?php echo css('assets/styles/icons.css') ?>
 </head>
 <body id="about">
   <div class="header">
@@ -25,13 +26,13 @@
   <div class="main">
     <div class="top">
       <div class="container clearfix">
-        <div class="logo"><img src="assets/images/logo-large.png" alt="III"> &#0174;</div>
+        <div class="logo"><img src="<?php echo url('assets/images/logo-large.png') ?>" alt="III"></div>
         <ul class="nav">
-          <?php $nav_pages = array("Home", "About", "Work", "Blog");
+          <?php $nav_pages = array("Home", "About", "Work", "Blllog");
             foreach($nav_pages as $page_name): 
               $page = $pages->findByTitle($page_name)->first();
           ?> 
-            <li<?php echo ($page->isOpen()) ? ' class="active"' : ''?>><a href="<?php echo $page->url(); ?>"><?php echo $page_name ?></a></li>
+            <li<?php echo ($page->isOpen()) ? ' class="active"' : ''?>><a href="<?php echo $page->url(); ?>"><?php echo $page_name . ($page->nav_character()) ?></a></li>
           <?php endforeach; ?>
           <li class="last"><a href="">Shop</a></li>
         </ul>

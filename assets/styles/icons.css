@@ -2,7 +2,7 @@
   width: 44px;
   height: 35px;
   display: inline-block;
-  background:url("../img/icons.png") top left no-repeat;
+  background:url("../images/icons.png") top left no-repeat;
 }
 .icon.list{ background-position:0 0; }
 .icon.folder{ background-position:-44px 0; }

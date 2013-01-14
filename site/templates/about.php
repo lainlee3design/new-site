@@ -26,7 +26,7 @@
           $s = explode(" - ", $s);
       ?>
       <div class="stat">
-        <div class="prop"><?php echo $s[0] ?></div>
+        <div class="prop"><?php echo $s[0] ?>:</div>
         <div class="value"><?php echo $s[1] ?></div>
       </div>
       <?php
@@ -36,7 +36,7 @@
     <div class="profile">
       <h2>Profile</h2>
       <div class="video">
-        <img src="assets/images/video.png" alt="" />
+        <iframe src="http://player.vimeo.com/video/40705287" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/40705287">I Create - Lain Lee 3</a> from <a href="http://vimeo.com/landonlee">Landon Lee</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
       </div>
     </div>
     <div class="text">

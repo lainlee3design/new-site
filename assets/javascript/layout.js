@@ -12,23 +12,13 @@ $(function() {
 
   $( '.search-bar form' ).wpForm({ ajaxSubmit: false });
 
-  var $fbLikeBox = $( '.fb-like-box' ),
-    html = $fbLikeBox.html();
-  var t = setInterval( function() {
-    if ( $fbLikeBox.html() != html ) {
-      clearInterval( t );
-      iframeLoaded();
-    }
-  }, 1000);
 
-  function iframeLoaded() {
+  $( '.fb-like-box iframe' ).on( 'load', function() {
     $( '.fb-like-wrapper' ).animate({
       height: 256,
       marginBottom: 20
-    }, 1000, function() {
-      $fbLikeBox.css( 'margin-bottom', '20px' );
-    });
-  }
+    }, 1000);
+  });
 
   $(".tweets-inner").tweet({
     join_text: "auto",
