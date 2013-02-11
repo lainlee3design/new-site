@@ -50,7 +50,7 @@
           <?php $arr = explode("\n", $post->text());
           echo kirbytext(implode("\n", array($arr[0],$arr[1],$arr[2]))); ?>
         </div>
-        <div class="read-more right"><a href="<?php echo $post->url() ?>">Read more</a></div>
+        <a class="button right" href="<?php echo $post->url() ?>">Read more</a>
         <div class="social">
           <!-- AddThis Button BEGIN -->
           <div class="addthis_toolbox addthis_default_style ">
@@ -67,9 +67,8 @@
         endforeach;
       else:
     ?>
-      <div class="post">&nbsp;</div>
-      <div class="post">
-        <h3 class="no-results">Sorry, no results were found.</h3>
+      <div class="post no-results">
+        <h3>Sorry, no results were found.</h3>
       </div>
     <?php
       endif;

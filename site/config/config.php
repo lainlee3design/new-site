@@ -46,7 +46,7 @@ c::set('url', '/');
 
 c::set('url', 'http://localhost/ll3');
 
-c::set('subfolder', 'subfolder');
+c::set('subfolder', 'll3');
 
 
 /* 

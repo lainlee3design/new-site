@@ -2,8 +2,22 @@
 
 <div class="about-text">
   <div class="container">
-    <h2><?php echo $page->title() ?></h2>
     <img src="assets/images/fantastic.png" alt="" id="fantastic" />
+    <ul class="subnav clearfix">
+      <li class="active">
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#stats-profile">Stats + Profile</a>
+      </li>
+      <li>
+        <a href="#faq">FAQ</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    <h2 id="about"><?php echo $page->title() ?></h2>
     <?php echo kirbytext(preg_replace("/\n.*/", "", $page->text())) ?>
     <img src="assets/images/passion-purpose.png" alt="" class="right" style="margin-left: 10px;" />
     <?php
@@ -14,9 +28,9 @@
     <?php echo kirbytext(substr($text, $pos, strlen($text) - $pos)) ?>
   </div>
 </div>
-<div class="stats-profile">
+<div id="stats-profile" class="stats-profile">
   <div class="container clearfix">
-    <a href="#" class="top-button">Top</a>
+    <a href="#about" class="button">Top</a>
     <div class="stats">
       <h2>Stats</h2>
       <?php
@@ -36,7 +50,7 @@
     <div class="profile">
       <h2>Profile</h2>
       <div class="video">
-        <iframe src="http://player.vimeo.com/video/40705287" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/40705287">I Create - Lain Lee 3</a> from <a href="http://vimeo.com/landonlee">Landon Lee</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+        <iframe src="http://player.vimeo.com/video/40705287?title=0&amp;byline=0&amp;portrait=0" width="653" height="367" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
     <div class="text">
@@ -44,9 +58,9 @@
     </div>
   </div>
 </div>
-<div class="faq">
+<div id="faq" class="faq">
   <div class="container">
-    <a href="#" class="top-button">Top</a>
+    <a href="#about" class="button black">Top</a>
     <h2>FAQ</h2>
     <?php
       $faq = $page->faq();

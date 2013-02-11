@@ -1,9 +1,6 @@
 #TODO
-- DISQUS
-- Dribbble
+- Contact form
 - Collaborate Page
-- Export Wordpress Data
-- Social Media
-- Button Refactor
+- Image slider
+- Links
 - Minification
-- Server

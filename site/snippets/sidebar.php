@@ -9,7 +9,7 @@
     </form>
   </div>
   <div class="rss-subscribe title">
-    <span class="right icon rss"></span>
+    <span class="right social-icon rss"></span>
     <a href="<?php echo url('blllog/feed') ?>">Feed on this</a>
   </div>
   <div class="like-button title">
@@ -72,7 +72,7 @@
     </div>
     <ul>
       <?php
-        $tagcloud = tagcloud($pages->find('blllog'), array('limit' => 20));
+        $tagcloud = tagcloud($pages->find('blog'), array('limit' => 20));
         foreach($tagcloud as $tag):
       ?>
         <li><a href="<?php echo $tag->url(); ?>"><?php echo ucwords($tag->name());?></a></li>

@@ -76,7 +76,9 @@
     </div>
     <div class="link data">
       <h4>Link</h4>
-      <?php echo kirbytext($page->project_link()); ?>
+      <a href="<?php echo $page->project_link(); ?>">
+        <?php echo kirbytext($page->project_link()); ?>
+      </a>
     </div>
   </div>
 </div>

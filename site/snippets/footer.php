@@ -15,7 +15,7 @@
         Vivamus.</p>
       </div>
       <div class="tweets">
-        <h4>Latest Tweets <img class="right" src="assets/images/twitter-yellow.png"></h4>
+        <h4>Latest Tweets <a href="http://twitter.com/lainlee3design" class="social-icon twitter right" target="_blank"></a></h4>
         <div class="tweets-inner">
         </div>
       </div>
@@ -36,14 +36,7 @@
             <li><a href="#"><?php echo $link ?></a></li>
           <?php endforeach; ?>
         </ul>
-        <h4>Sign up for our newsletter</h4>
-        <form class="clearfix" id="newsletter-signup">
-          <div class="field">
-            <label for="newsletter-email">Email Address</label>
-            <input id="newsletter-email" name="email" value="" />
-          </div>
-          <input type="submit" name="" value="" />
-        </form>
+        <?php snippet('newsletter-signup'); ?>
       </div>
       <div class="rights container clearfix">
         <div class="attributes right">Site design by <a href="#">III&#0153;</a> | Programmed by <a href="http://tybenz.com">Tyler Benziger</a></div>

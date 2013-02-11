@@ -17,10 +17,10 @@
       <div class="triangle triangle-2"></div>
       <strong><i>Now Accepting:</i></strong>Projects in Logo Design, iOS Design, Web Design & Motion Graphics
     </div>
-    <div class="buttons">
-      <div class="btn"></div>
-      <div class="btn active"></div>
-      <div class="btn"></div>
+    <div class="thumbs">
+      <div class="thumb"></div>
+      <div class="thumb active"></div>
+      <div class="thumb"></div>
     </div>
   </div>
 </div>
@@ -32,7 +32,7 @@
 </div>
 <div class="work">
   <div class="container clearfix">
-    <h2>Featured Work<a href="#" class="portfolio-link right">View Full Portfolio</a></h2>
+    <h2>Featured Work<a href="#" class="button right">View Full Portfolio</a></h2>
     <div class="project-card">
       <div class="thumbnail"><img src="" alt="" /></div>
       <div class="project-meta">
@@ -68,7 +68,7 @@
           condimentum.
         </p>
       </div>
-      <a href="" class="read-more">Read More</a>
+      <a href="" class="button black right">Read More</a>
     </div>
     <div class="testimonial">
       <div class="head"><div class="triangle"></div>Testimonials <strong>//</strong></div>

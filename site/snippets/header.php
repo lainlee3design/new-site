@@ -9,17 +9,16 @@
 <body id="about">
   <div class="header">
     <div class="container">
-      <div class="social">
-        <a class="facebook" href="#"></a>
-        <a class="twitter" href="#"></a>
-        <a class="dribbble" href="#"></a>
-        <a class="tumblr" href="#"></a>
-        <a class="vimeo" href="#"></a>
+      <div class="header-social">
+        <a class="social-icon facebook" href="http://facebook.com/lainlee3design" target="_blank"></a>
+        <a class="social-icon twitter" href="http://twitter.com/lainlee3design" target="_blank"></a>
+        <a class="social-icon dribbble" href="http://dribbble.com/lainlee3design" target="_blank"></a>
+        <a class="social-icon vimeo" href="http://vimeo.com/lainlee3design" target="_blank"></a>
       </div>
       <ul class="contact-nav">
-        <li><a href="#">Client Login</a></li>
-        <li><a href="#">Schedule a Meeting</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="http://lainlee3design.basecamphq.com/">Client Login</a></li>
+        <li><a href="<?php echo $pages->find('collaborate')->url(); ?>">Collaborate</a></li>
+        <li><a href="<?php echo $pages->find('home')->url() . '#contact'; ?>">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -28,11 +27,10 @@
       <div class="container clearfix">
         <div class="logo"><img src="<?php echo url('assets/images/logo-large.png') ?>" alt="III"></div>
         <ul class="nav">
-          <?php $nav_pages = array("Home", "About", "Work", "Blllog");
-            foreach($nav_pages as $page_name): 
-              $page = $pages->findByTitle($page_name)->first();
-          ?> 
-            <li<?php echo ($page->isOpen()) ? ' class="active"' : ''?>><a href="<?php echo $page->url(); ?>"><?php echo $page_name . ($page->nav_character()) ?></a></li>
+          <?php $home = $pages->find('home'); ?>
+          <li class="<?php echo $home->isOpen() ? 'active' : '' ?>"><a href="<?php echo $home->url(); ?>"><?php echo $home->title() ?></a></li>
+          <?php foreach($pages->visible() as $page): ?>
+            <li<?php echo ($page->isOpen()) ? ' class="active"' : ''?>><a href="<?php echo $page->url(); ?>"><?php echo $page->title() . ($page->nav_character()) ?></a></li>
           <?php endforeach; ?>
           <li class="last"><a href="">Shop</a></li>
         </ul>

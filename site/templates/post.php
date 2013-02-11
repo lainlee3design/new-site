@@ -33,7 +33,7 @@
     </div>
     <div class="comment-form">
 <?php snippet('disqus', array('disqus_shortname' => 'LainLee3Design', 'disqus_developer' => true)) ?>
-      <div class="title clearfix">
+      <!--<div class="title clearfix">
         <h2>Comments</h2>
         <span>
           <strong>1</strong> total comments so far
@@ -41,37 +41,7 @@
       </div>
       <div class="thread">
         <div class="comment-wrapper clearfix">
-          <div class="avatar"><img src="<?php echo url("assets/images/logo.png") ?>"></div>
-          <div class="comment">
-            <div class="comment-meta">
-              <span class="name">User Name</span> wrote:
-            </div>
-            <div class="text">
-              <p>Etiam at tortor. Vivamus quis sapien nec magna scelerisque lobortis.</p>
-
-              <p>Curabitur tincidunt viverra justo. Cum sociis natoque penatibus et magnis
-              dis parturient montes, nascetur ridiculus mus. Sed eros ante, mattis
-              ullamcorper, posuere quis, tempor vel, metus. Maecenas.</p>
-            </div>
-          </div>
-        </div>
-        <div class="comment-wrapper clearfix">
-          <div class="avatar"><img src="<?php echo url("assets/images/logo.png") ?>"></div>
-          <div class="comment">
-            <div class="comment-meta">
-              <span class="name">User Name</span> wrote:
-            </div>
-            <div class="text">
-              <p>Etiam at tortor. Vivamus quis sapien nec magna scelerisque lobortis.</p>
-
-              <p>Curabitur tincidunt viverra justo. Cum sociis natoque penatibus et magnis
-              dis parturient montes, nascetur ridiculus mus. Sed eros ante, mattis
-              ullamcorper, posuere quis, tempor vel, metus. Maecenas.</p>
-            </div>
-          </div>
-        </div>
-        <div class="comment-wrapper clearfix">
-          <div class="avatar"><img src="<?php echo url("assets/images/logo.png") ?>"></div>
+          <div class="avatar"><img src="<?php // echo url("assets/images/logo.png") ?>"></div>
           <div class="comment">
             <div class="comment-meta">
               <span class="name">User Name</span> wrote:
@@ -114,32 +84,20 @@
             <input class="right" type="submit" value="Boom. Said."/>
           </div>
         </form>
-      </div>
-      <div class="related-posts">
-        <div class="title">Related Posts</div>
-        <div class="related-post">
-          <h3>DIBS&trade; New Design: ALVH</h3>
-          <div class="preview">
-            <p>Sed sed justo. Curabitur consectetuer arcu. Etiam placerat est eget odio.
-            Nulla facilisi. Nulla facilisi. Mauris non neque. Suspendisse et diam. Sed 
-            vestibulum malesuada ipsum. Cras id magna. Nunc pharetra velit vitae eros. 
-            Vivamus ac risus. Mauris ac pede laoreet felis pharetra ultricies. Proin et 
-            neque. Aliquam dignissim placerat felis. Mauris porta ante sagittis purus.</p>
-          </div>
-          <a href="#" class="read-more">Read More</a><br class="clear"><br>
+      </div>-->
+      <?php $related = related($page->related()); ?>
+      <?php if ($related->first()): ?>
+        <div class="related-posts">
+          <div class="title">Related Posts</div>
+          <?php foreach ($related->limit(3) as $related): ?>
+            <div class="related-post">
+              <h3><?php echo $related->title(); ?></h3>
+              <div class="preview"><?php echo excerpt($related->text(), 300); ?></div>
+              <a href="<?php echo $related->url() ?>" class="button right">Read More</a><br class="clear"><br>
+            </div>
+          <?php endforeach; ?>
         </div>
-        <div class="related-post">
-          <h3>DIBS&trade; New Design: ALVH</h3>
-          <div class="preview">
-            <p>Sed sed justo. Curabitur consectetuer arcu. Etiam placerat est eget odio.
-            Nulla facilisi. Nulla facilisi. Mauris non neque. Suspendisse et diam. Sed 
-            vestibulum malesuada ipsum. Cras id magna. Nunc pharetra velit vitae eros. 
-            Vivamus ac risus. Mauris ac pede laoreet felis pharetra ultricies. Proin et 
-            neque. Aliquam dignissim placerat felis. Mauris porta ante sagittis purus.</p>
-          </div>
-          <a href="#" class="read-more">Read More</a><br class="clear"><br>
-        </div>
-      </div>
+      <?php endif; ?>
     </div>
   </div>
   <?php echo snippet('sidebar'); ?>
