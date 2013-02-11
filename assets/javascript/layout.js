@@ -28,4 +28,13 @@ $(function() {
     filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
     template: "{time} {text}"
   });
+
+  $( '.collab-contact' ).click( function( evt ) {
+      var $form = $( '#contact form' )
+          $item = $( this ).closest( '.collab-item' ),
+          title = $item.find( 'h3:first' ).text(),
+          $message = $form.find( '[name=text]' );
+
+      $message.text( "Responding to " + title + " - " );
+  });
 });

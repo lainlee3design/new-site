@@ -442,13 +442,29 @@ a:hover {
   color: #1c98d8;
 }
 
-.main .about-text, .main .collab-item-wrapper.odd {
+.main .about-text, .main .collab-item.odd {
   padding-bottom: 20px;
   box-shadow: 0 2px 1px 1px rgba(0,0,0,0.3);
   position: relative;
   z-index: 1;
   font-size: 16px;
   line-height: 1.4em;
+}
+
+.collab-item {
+  overflow: hidden;
+  font-size: 16px;
+  padding: 40px 0 !important;
+}
+
+.collab-item.first {
+  padding-top: 0 !important;
+}
+
+.collab-item.even {
+  overflow: hidden;
+  box-shadow: 0 -2px 2px 1px rgba(0,0,0,0.3) inset;
+  -webkit-box-shadow: 0 -2px 2px 1px rgba(0,0,0,0.3) inset;
 }
 
 .main .stats-profile .button, .main .faq .button {
@@ -471,7 +487,7 @@ a:hover {
   top: 10px;
 }
 
-.main .stats-profile, .main .collab-item-wrapper.even {
+.main .stats-profile, .main .collab-item.even {
   background: url(../images/work-bg.png);
   padding-bottom: 20px;
 }
@@ -776,7 +792,7 @@ a:hover {
   margin-left: 0;
 }
 
-.images, .meta {
+.images {
   float: left;
 }
 
@@ -798,7 +814,8 @@ a:hover {
   height: inherit;
 }
 
-.meta {
+#project-view .meta {
+  float: left;
   width: 312px;
 }
 
@@ -1161,6 +1178,37 @@ a:hover {
   width: 150px;
   font-size: 14px;
 }
+
+.collab-item .container {
+  position: relative;
+}
+
+.collab-item .container > h3 {
+  color: #2296de;
+}
+
+.meta p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.17em;
+}
+
+.collab-item .actions {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  text-align: right;
+}
+
+.collab-item .actions h3 {
+  margin-bottom: 10px;
+}
+
+.collab-item .actions .button {
+  width: 195px;
+  margin-bottom: 10px;
+}
+
 
 .footer {
   position: relative;

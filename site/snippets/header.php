@@ -28,7 +28,7 @@
         <div class="logo"><img src="<?php echo url('assets/images/logo-large.png') ?>" alt="III"></div>
         <ul class="nav">
           <?php $home = $pages->find('home'); ?>
-          <li class="<?php echo $home->isOpen() ? 'active' : '' ?>"><a href="<?php echo $home->url(); ?>"><?php echo $home->title() ?></a></li>
+          <li class="<?php echo $home->isOpen() || $page->nav() == 'Home' ? 'active' : '' ?>"><a href="<?php echo $home->url(); ?>"><?php echo $home->title() ?></a></li>
           <?php foreach($pages->visible() as $page): ?>
             <li<?php echo ($page->isOpen()) ? ' class="active"' : ''?>><a href="<?php echo $page->url(); ?>"><?php echo $page->title() . ($page->nav_character()) ?></a></li>
           <?php endforeach; ?>
