@@ -37,4 +37,17 @@ $(function() {
 
       $message.text( "Responding to " + title + " - " );
   });
+
+  ss = new WebPro.Widget.ContentSlideShow( '.slider', {
+      autoPlay: true,
+      slideshowClassName: 'slider',
+      clipClassName: 'slider-clip',
+      viewClassName: 'slider-view',
+      slideClassName: 'slide',
+      slideLinkClassName: 'thumb',
+      nextClassName: 'slide-next',
+      prevClassName: 'slide-prev',
+      displayInterval: 4000,
+      plugins: [ WebPro.Widget.ContentSlideShow.carouselPlugin, WebPro.Widget.ContentSlideShow.disableThumbsPlugin ]
+  });
 });

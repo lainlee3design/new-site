@@ -111,6 +111,78 @@ a:hover {
   color: inherit;
 }
 
+.slider {
+  width: 1000px;
+  height: 429px;
+}
+
+.slider-clip {
+  width: 1000px;
+  height: 429px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-view {
+  width: 3000px;
+  position: absolute;
+  left: -1000px;
+}
+
+.slider .slide {
+  float: left;
+}
+
+.slider .slider-view.slide-next {
+  left: -1000px;
+  -webkit-animation: slideLeft 0.6s;
+  -moz-animation: slideLeft 0.6s;
+  -o-animation: slideLeft 0.6s;
+  animation: slideLeft 0.6s;
+}
+
+@-webkit-keyframes slideLeft {
+  from { left: -1000px; }
+  to { left: -2000px; }
+}
+@-moz-keyframes slideLeft {
+  from { left: -1000px; }
+  to { left: -2000px; }
+}
+@-o-keyframes slideLeft {
+  from { left: -1000px; }
+  to { left: -2000px; }
+}
+@keyframes slideLeft {
+  from { left: -1000px; }
+  to { left: -2000px; }
+}
+
+.slider .slider-view.slide-prev {
+  left: -1000px;
+  -webkit-animation: slideRight 0.6s;
+  -moz-animation: slideRight 0.6s;
+  -o-animation: slideRight 0.6s
+  animation: slideRight 0.6s
+}
+
+@-webkit-keyframes slideRight {
+  from { left: -1000px; }
+  to { left:0px; }
+}
+@-moz-keyframes slideRight {
+  from { left: -1000px; }
+  to { left:0px; }
+}
+@-o-keyframes slideRight {
+  from { left: -1000px; }
+  to { left:0px; }
+}
+@keyframes slideRight {
+  from { left: -1000px; }
+  to { left:0px; }
+}
+
 .main {
   padding-top: 36px;
   position: relative;
@@ -207,6 +279,10 @@ a:hover {
   right: 0;
 }
 
+.main .showcase .slider {
+  position: relative;
+}
+
 .main .showcase .banner strong {
   font-size: 20px;
   color: #fff;
@@ -215,6 +291,9 @@ a:hover {
 }
 
 .main .showcase .thumbs {
+  position: absolute;
+  top: 475px;
+  left: 460px;
   margin: 0 auto;
   height: 17px;
   width: 81px;
@@ -229,7 +308,7 @@ a:hover {
   margin: 0 5px;
 }
 
-.main .showcase .thumbs .thumb.active {
+.main .showcase .thumbs .thumb.wp-tab-active {
   background-color: #2296df;
 }
 

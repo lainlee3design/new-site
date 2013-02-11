@@ -1,6 +1,5 @@
 #TODO
 - Contact form
-- Collaborate Page
 - Image slider
 - Links
 - Minification
