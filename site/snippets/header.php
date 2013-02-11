@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
   <?php echo css('assets/styles/styles.css') ?>
-  <?php echo css('assets/styles/icons.css') ?>
+  <?php echo css('assets/styles/social-icons2.css') ?>
 </head>
 <body id="about">
   <div class="header">
@@ -13,7 +13,7 @@
         <a class="social-icon facebook" href="http://facebook.com/lainlee3design" target="_blank"></a>
         <a class="social-icon twitter" href="http://twitter.com/lainlee3design" target="_blank"></a>
         <a class="social-icon dribbble" href="http://dribbble.com/lainlee3design" target="_blank"></a>
-        <a class="social-icon vimeo" href="http://vimeo.com/lainlee3design" target="_blank"></a>
+        <a class="social-icon instagram" href="http://instagram.com/lainlee3" target="_blank"></a>
       </div>
       <ul class="contact-nav">
         <li><a href="http://lainlee3design.basecamphq.com/">Client Login</a></li>

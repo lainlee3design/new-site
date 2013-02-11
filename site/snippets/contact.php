@@ -15,7 +15,7 @@
         <a class="social-icon facebook" href="http://facebook.com/lainlee3design" target="_blank"></a>
         <a class="social-icon twitter" href="http://twitter.com/lainlee3design" target="_blank"></a>
         <a class="social-icon dribbble" href="http://dribbble.com/lainlee3design" target="_blank"></a>
-        <a class="social-icon vimeo" href="http://vimeo.com/lainlee3design" target="_blank"></a>
+        <a class="social-icon instagram" href="http://instagram.com/lainlee3" target="_blank"></a>
       </div>
     </div>
   </div>
