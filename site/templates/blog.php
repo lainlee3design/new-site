@@ -9,13 +9,14 @@
       if (get('search')) {
         $search = new search(array(
           'searchfield' => 'search',
+          'paginate' => 1,
           'in' => $page->uri()
         ));
         $posts = $search->results();
       } else if ($tag_filter) {
-        $posts = $page->children()->filterBy('tags', $tag_filter, ',')->flip()->visible()->limit(10);
+        $posts = $page->children()->filterBy('tags', $tag_filter, ',')->flip()->visible()->paginate(1);
       } else {
-        $posts = $page->children()->flip()->visible()->limit(10);
+        $posts = $page->children()->flip()->visible()->paginate(1);
       }
 
       $month = $site->uri()->params('month');
@@ -37,9 +38,9 @@
         <div class="post-header clearfix">
           <div class="img"></div>
           <div class="text">
-          <h3><?php echo $post->title(); ?></h3>
+          <h3><a href="<?php echo $post->url(); ?>"><?php echo $post->title(); ?></a></h3>
             <div class="meta">
-              Posted by <a href="#"><?php echo $post->author(); ?></a> on <strong><?php echo $post->date('M d, Y'); ?></strong>
+              Posted by <a href="http://twitter.com/lainlee3design.com"><?php echo $post->author(); ?></a> on <strong><?php echo $post->date('M d, Y'); ?></strong>
             </div>
           </div>
         </div>
@@ -63,11 +64,19 @@
         </div>
       </div>
     <?php endif; ?>
-    <?php
-        endforeach;
-      else:
-    ?>
-      <div class="post no-results">
+    <?php endforeach; ?>
+      <?php if ($posts->pagination()->hasPages()): ?>
+        <div class="blog-pagination">
+          <?php if ($posts->pagination()->hasNextPage()): ?>
+            <a href="<?php echo $posts->pagination()->nextPageURL(); ?>" class="button next">Next</a>
+          <?php endif; ?>
+          <?php if ($posts->pagination()->hasPrevPage()): ?>
+            <a href="<?php echo $posts->pagination()->prevPageURL(); ?>" class="button prev">Previous</a>
+          <?php endif; ?>
+        </div>
+      <?php endif; ?>
+    <?php else: ?>
+      <div class="post results">
         <h3>Sorry, no results were found.</h3>
       </div>
     <?php

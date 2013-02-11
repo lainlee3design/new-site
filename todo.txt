@@ -1,5 +1,5 @@
 #TODO
 - Contact form
-- Image slider
+- Link to post author?
 - Links
 - Minification

@@ -412,12 +412,12 @@ a:hover {
   width: 617px;
 }
 
-.post.no-results {
+.post.results {
   background: url(../images/separator.png) repeat-x bottom left, url(../images/separator.png) repeat-x top left;
   overflow: hidden;
 }
 
-.post.no-results h3 {
+.post.results h3 {
   margin-top: 30px;
   font-weight: normal;
 }
@@ -931,6 +931,15 @@ a:hover {
   position: absolute;
   right: -12px;
   top: -1px;
+}
+
+.blog-pagination .button {
+  position: relative;
+  width: 200px;
+}
+
+.blog-pagination .next {
+  float: right;
 }
 
 .meta .name {

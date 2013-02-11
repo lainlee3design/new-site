@@ -2,13 +2,14 @@
 
 $form = new contactform(array(
   'to'       => 'Tyler <tabenziger@gmail.com>',
-  'from'     => 'Contact Form <contact@localhost>',
+  'from'     => 'Contact Form <contactform@lainlee3design.com>',
   'subject'  => 'New contact form request',
   'goto'     => $page->url() . '/status:thank-you'
 ));
 
 ?>
 <section id="contactform">
+<?php var_dump($form->isError('send')); ?>
 
   <?php if(param('status') == 'thank-you'): ?>
 
@@ -23,7 +24,7 @@ $form = new contactform(array(
     <div class="column-1">
       <div class="contactform-field<?php if($form->isError('name')) echo ' error' ?> field">
         <label class="contactform-label" for="contactform-name">Name <?php if($form->isRequired('name')) echo '*' ?> <?php if($form->isError('name')): ?><small>Please enter a name</small><?php endif ?></label><br>
-        <input class="contactform-input" type="text" id="contactform-name" name="name" value="<?php echo $form->htmlValue('name') ?>" />
+          <input class="contactform-input" type="text" id="contactform-name" name="name" value="<?php echo $form->htmlValue('name') ?>" />
       </div>
   
       <div class="contactform-field<?php if($form->isError('email')) echo ' error' ?> field">
