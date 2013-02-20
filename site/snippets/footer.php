@@ -5,14 +5,7 @@
       <div class="about">
         <h4>About</h4>
 
-        <p><a href="#">Lorem ipsum</a> sed justo. Curabitur consectetuer arcu. Etiam placerat est eget odio.
-        Nulla facilisi. Nulla facilisi. Mauris non neque. Suspendisse et diam. Sed
-        vestibulum malesuada ipsum. Cras id magna. Nunc pharetra velit vitae eros.
-        Vivamus.</p>
-
-        <p>Nulla facilisi. Nulla facilisi. Mauris non neque. Suspendisse et diam. Sed
-        vestibulum malesuada ipsum. Cras id magna. Nunc pharetra velit vitae eros.
-        Vivamus.</p>
+        <?php echo kirbytext($footer_info->about_text()); ?>
       </div>
       <div class="tweets">
         <h4>Latest Tweets <a href="http://twitter.com/lainlee3design" class="social-icon twitter right" target="_blank"></a></h4>
@@ -28,12 +21,12 @@
         ?>
         <ul class="second">
           <?php foreach($second_column as $link): ?>
-            <li><a href="#"><?php echo $link ?></a></li>
+            <li><?php echo kirbytext($link); ?></li>
           <?php endforeach; ?>
         </ul>
         <ul>
           <?php foreach($first_column as $link): ?>
-            <li><a href="#"><?php echo $link ?></a></li>
+          <li><?php echo kirbytext($link); ?></li>
           <?php endforeach; ?>
         </ul>
         <?php snippet('newsletter-signup'); ?>
@@ -45,9 +38,28 @@
     </div>
   </div>
 </body>
-<?php echo js('assets/javascript/jquery.min.js'); ?>
+<!--<?php echo js('assets/javascript/jquery.min.js'); ?>
 <?php echo js('assets/javascript/layout.js'); ?>
 <?php echo js('assets/javascript/webpro.js'); ?>
-<?php echo js('assets/javascript/tweet.js'); ?>
+<?php echo js('assets/javascript/tweet.js'); ?>-->
+<?php echo js('assets/javascript/build/out.min.js'); ?>
 <?php echo js('http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-508a2aa958ebbcfd'); ?>
+<?php if ($pages->find('home') == $page): ?>
+<script type="text/javascript" charset="utf-8">
+  $(function() {
+    ss = new WebPro.Widget.ContentSlideShow( '.slider', {
+        autoPlay: true,
+        slideshowClassName: 'slider',
+        clipClassName: 'slider-clip',
+        viewClassName: 'slider-view',
+        slideClassName: 'slide',
+        slideLinkClassName: 'thumb',
+        nextClassName: 'slide-next',
+        prevClassName: 'slide-prev',
+        displayInterval: <?php echo intval($page->time_per_slide()->value) * 1000 ?>,
+        plugins: [ WebPro.Widget.ContentSlideShow.carouselPlugin, WebPro.Widget.ContentSlideShow.disableThumbsPlugin ]
+    });
+  });
+</script>
+<?php endif; ?>
 </html>

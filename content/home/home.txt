@@ -1,15 +1,9 @@
 Title: Home
 ----
+Time Per Slide: 5
+----
 Accepting: Projects in Logo Design, iOS Design, Web Design & Motion
 Graphics 
 ----
 Hello: I’m a visual media designer     specializing in branding +
 identity,   web design & motion graphics.
-----
-Testimonial: Adipiscing elit. Proin interdum vehicula purus. Cum sociis
-natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Aenean risus dui, volutpat.
-----
-Testimonial Name: Jeff Miller
-----
-Testimonial Position: Senior Director of Advertising

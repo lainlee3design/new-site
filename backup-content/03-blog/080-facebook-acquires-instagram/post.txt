@@ -1,0 +1,37 @@
+Title: Facebook Acquires Instagram
+----
+Author: Lain 3
+----
+Date: 2012-04-10 16:35:36
+----
+Text: Facebook announced Monday it will acquire the popular mobile photo-sharing firm Instagram, a push by the social networking giant to draw more consumers who rely on smartphones and tablets for their digital needs.
+
+The deal, Facebook’s largest to date, is worth around <a href="http://newsroom.fb.com/Announcements/Facebook-to-Acquire-Instagram-141.aspx" data-xslt="_http">$1 billion in cash</a> and shares, Facebook said.
+
+“[It’s] the first time we’ve ever acquired a product and company with so many users. We don’t plan on doing many more of these, if any at all,” Facebook <a href="https://www.facebook.com/zuck/posts/10100318398827991" data-xslt="_http">chief executive Mark Zuckerberg</a> wrote on his Facebook page.
+
+The shift toward mobile has proven problematic for Facebook, which admitted in February that its decision not to put display ads on its mobile applications has made it difficult to generate revenue on that platform. Facebook has since put some ads in the news feeds of its mobile users.
+
+Instagram, meanwhile, estimates that its users upload around 5 million photos through mobile devices to its service each day.
+
+<object id="ep" width="416" height="374" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="wmode" value="transparent" /><param name="src" value="http://i.cdn.turner.com/cnn/.element/apps/cvp/3.0/swf/cnn_416x234_embed.swf?context=embed&amp;videoId=tech/2012/04/10/nr-segall-instagram-explainer.cnn" /><embed id="ep" width="416" height="374" type="application/x-shockwave-flash" src="http://i.cdn.turner.com/cnn/.element/apps/cvp/3.0/swf/cnn_416x234_embed.swf?context=embed&amp;videoId=tech/2012/04/10/nr-segall-instagram-explainer.cnn" allowfullscreen="true" allowscriptaccess="always" wmode="transparent" /></object>
+
+The service has been a hit since its launch in 2010, and was named Apple’s top app last year. It has grown quickly: in June, the company said it had hit 5 million users. By April, that number had ballooned to 30 million. That exponential growth is expected to continue as the company, which had previously made its service only available on Apple’s mobile devices, recently launched a version for Android devices last month.
+
+Devotees of Instagram reacted quickly to news of the deal on social media sites. Many expressed concerns that the acquisition would have a bad effect on the two-year-old service.
+
+Some users said they would close their accounts because they did not want Facebook to have control over their photo data. Others said that they were concerned that the social network would change the photo service too much.
+
+Those fears are based on history. In the past few years, Facebook has bought up several companies but then raided the firms for their talent while shuttering their services, such as the location-based check-in service Gowalla, group messaging application Beluga and live-event service Hot Potato.
+
+Yet both Facebook and Instagram were careful to say in statements that this deal was different, and that the photo-sharing app would continue to develop with some degree of independence.
+
+Facebook has made no secret of how important user photos are to its Web site, and estimated in February that users upload 250 million photos a day to the network.
+
+Calling the purchase a major milestone for his company, which is expected to sell shares publicly in the coming months, Zuckerberg added that Instagram customers will continue to have the capability to connect to other services such as Facebook rivals Twitter and Tumblr. Facebook also plans to keep Instagram’s unique strengths and weaknesses in mind without “just trying to integrate everything into Facebook.”
+
+On the <a href="http://blog.instagram.com/" data-xslt="_http">Instagram company blog</a>, chief executive Kevin Systrom also stressed that Instagram will keep its independence, saying his team will “be working with Facebook to evolve Instagram and build the network. We’ll continue to add new features to the product and find new ways to create a better mobile photos experience.”
+
+The transaction is expected to close later this quarter.
+[Source: <a href="http://www.washingtonpost.com/business/technology/facebook-acquires-instagram-for-about-1b/2012/04/09/gIQA180H6S_story.html" target="_blank">The Washington Post</a>]
+

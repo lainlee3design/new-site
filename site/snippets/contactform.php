@@ -9,7 +9,6 @@ $form = new contactform(array(
 
 ?>
 <section id="contactform">
-<?php var_dump($form->isError('send')); ?>
 
   <?php if(param('status') == 'thank-you'): ?>
 
@@ -18,8 +17,6 @@ $form = new contactform(array(
   
   <?php else: ?>
 
-  <h1>Get in contact</h1>
-  
   <form action="#contactform" method="post">
     <div class="column-1">
       <div class="contactform-field<?php if($form->isError('name')) echo ' error' ?> field">

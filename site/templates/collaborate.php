@@ -23,7 +23,7 @@
           <a href="#contact" class="button collab-contact">Contact Me</a>
         </div>
         <div>
-          <a href="#" class="button">Recommend</a>
+          <a href="mailto:?subject=Collaboration Opportunity&body=Hi, I found a designer who is looking for help on a project. Check out the details at http://lainlee3design.com/collaborate" class="button">Recommend</a>
         </div>
       </div>
     </div>

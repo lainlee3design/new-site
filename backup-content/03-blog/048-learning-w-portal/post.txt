@@ -1,0 +1,17 @@
+Title: Learning w/ Portal
+----
+Author: Lain 3
+----
+Date: 2011-09-17 23:35:17
+----
+Text: Valve is an amazing company - they've given the world such classics as Portal, Team Fortress, and Half Life.  But probably their most notable achievement for creating something that is not only entertaining but intellectually engaging has been the Portal franchise!  What makes Portal so unique is that it can be applied to real-world education.  Valve has now taken advantage of this unique position, riding the fence between video game developer and educational tool, and is now providing field trips to schools that wish to provide their students with a fun, engaging way to learn math, physics, logic, spatial reasoning, probability and problem solving.
+
+<iframe width="608" height="339" src="http://www.youtube.com/embed/QGQo0z3XikI" frameborder="0" allowfullscreen></iframe>
+
+Recognizing that the hardest part of teaching students math, technology, math and engineering is keeping their attention and "engaging" their imaginations, "Learn With Portals" is a new program instituted by Valve to help educators give their students a fun, entertaining way to apply the principles and lessons they learn in the classroom in a virtual classroom.  Students are given a programming tool called "Hammer" in which they are able to not only model environmental elements from Portal, but they're also able to create levels within Valve's engine, allowing them to apply such principals as teamwork, spatial reasoning, and problem solving.  They are also given a tour of Valve Studios, and get to see how teams of adults come together to create amazing projects.
+
+I've always had a pension for teaching, having coached kids for 10 years.  I feel that our society is far too "adult-oriented", from our humor to our daily struggles, and that we're quickly robbing our children of their innocence.  Being part of the <a href="http://tictactoeten.com">T10</a> team, I too want help kids learn in fun and engaging ways, ways that help them to explore the infinite possibilities of their boundless imaginations and help them believe in the power of their dreams.  I applaud Valve for what their doing with the "Learn With Portals" program, and have yet ANOTHER reason to love them as a game development company!
+
+To learn more about the "Learn With Portals" program, visit their site at <a href="http://learnwithportals.com">www.learnwithportals.com</a>.  Also, for a limited time, you can download the original Portal game for your PC or Mac <a href="http://store.steampowered.com/app/400/">here</a>.  Check it out!
+
+What do you think of the "Learn With Portals" program?  Is it a good idea to teach kids within their vernacular (i.e. technology and video games) - is it strengthening or hindering them?  Leave your comments below and join the conversation!

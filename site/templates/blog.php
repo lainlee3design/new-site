@@ -9,27 +9,26 @@
       if (get('search')) {
         $search = new search(array(
           'searchfield' => 'search',
-          'paginate' => 1,
+          'paginate' => 4,
           'in' => $page->uri()
         ));
         $posts = $search->results();
       } else if ($tag_filter) {
-        $posts = $page->children()->filterBy('tags', $tag_filter, ',')->flip()->visible()->paginate(1);
+        $posts = $page->children()->filterBy('tags', $tag_filter, ',')->flip()->visible();
       } else {
-        $posts = $page->children()->flip()->visible()->paginate(1);
+        $posts = $page->children()->flip()->visible();
       }
 
       $month = $site->uri()->params('month');
       $year = $site->uri()->params('year');
       if ($month && $year) {
         foreach($posts->_ as $key => $p) {
-          var_dump(strtolower(strftime('%B', $p->date())) . ' ' . $month);
-          var_dump(strftime('%Y', $p->date()) . ' ' . $year);
           if (strtolower(strftime('%B', $p->date())) != $month || strftime('%Y', $p->date()) != $year) {
             unset($posts->_[$key]);
           }
         }
       }
+      $posts = $posts->paginate(4);
       if($posts):
         foreach($posts as $post):
     ?>
@@ -40,16 +39,18 @@
           <div class="text">
           <h3><a href="<?php echo $post->url(); ?>"><?php echo $post->title(); ?></a></h3>
             <div class="meta">
-              Posted by <a href="http://twitter.com/lainlee3design.com"><?php echo $post->author(); ?></a> on <strong><?php echo $post->date('M d, Y'); ?></strong>
+              Posted by <a href="<?php echo $site->url(); ?>"><?php echo $post->author(); ?></a> on <strong><?php echo $post->date('M d, Y'); ?></strong>
             </div>
           </div>
         </div>
+        <?php if ($post->images()->first()): ?>
         <div class="post-image">
-          <img src="<?php echo $post->files()->find("main") ?>" alt="" />
+          <img src="<?php echo $post->header_image() ? $post->files()->find($post->header_image()->value)->url() : $post->images()->first()->url(); ?>" alt="" />
         </div>
+        <?php endif; ?>
         <div class="preview">
           <?php $arr = explode("\n", $post->text());
-          echo kirbytext(implode("\n", array($arr[0],$arr[1],$arr[2]))); ?>
+          echo kirbytext(implode("\n", array($arr[0],$arr[1]))); ?>
         </div>
         <a class="button right" href="<?php echo $post->url() ?>">Read more</a>
         <div class="social">

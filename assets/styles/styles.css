@@ -63,8 +63,8 @@ a:hover {
 }
 
 .header {
-  background: url(../images/header-bg.png) repeat-x;
-  height: 38px;
+  background: url(../images/header-bg.png) repeat;
+  height: 44px;
   border-bottom: 10px solid #000;
 }
 
@@ -95,6 +95,7 @@ a:hover {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
+  line-height: 24px;
 }
 
 .header .contact-nav li {
@@ -188,7 +189,7 @@ a:hover {
   position: relative;
 }
 
-.main .top {
+.main .top:not(.button) {
   height: 157px;
   position: relative;
   margin-bottom: 50px;
@@ -201,7 +202,7 @@ a:hover {
 .main .top .logo {
   font-size: 20px;
   font-weight: bold;
-  width: auto;
+  height: 157px;
   float: left;
 }
 
@@ -503,6 +504,11 @@ a:hover {
   height: 287px;
   padding: 13px;
   background-color: #000;
+}
+
+.main .work .project-card .thumbnail img {
+  width: inherit;
+  height: inherit;
 }
 
 .main .work .project-card .project-meta {
@@ -882,15 +888,13 @@ a:hover {
 
 #project-view .preview {
   width: 626px;
-  height: 448px;
   padding: 16px;
-  background-color: #333;
+  background: url(../images/header-bg.png);]
   margin-bottom: 22px;
 }
 
 #project-view .preview img {
   width: inherit;
-  height: inherit;
 }
 
 #project-view .meta {
@@ -936,6 +940,7 @@ a:hover {
 .blog-pagination .button {
   position: relative;
   width: 200px;
+  margin-bottom: 80px;
 }
 
 .blog-pagination .next {
@@ -1029,7 +1034,6 @@ a:hover {
 .post-image {
   margin-top: 15px;
   width: 626px;
-  height: 400px;
 }
 
 .post-image img {
@@ -1111,8 +1115,8 @@ a:hover {
 
 .search-bar form input[type=submit] {
   float: left;
-  background: url("../images/social-icons.png") top left no-repeat;
-  background-position:-101px 0;
+  background: url("../images/social-icons3.png") top left no-repeat;
+  background-position:-346px 0;
   border: none;
   width: 31px;
   height: 35px;
@@ -1123,12 +1127,12 @@ a:hover {
 }
 
 .search-bar form input[type=submit]:hover {
-  background-position:-35px 0;
+  background-position:-1477px 0;
 }
 
-#sidebar .rss-subscribe:hover .social-icon.rss,
+#sidebar .rss-subscribe:hover .icon.rss,
 #sidebar .rss-subscribe:hover a {
-  background-position:0 0;
+  background-position:-1407px 0;
   color: #f5d700;
 }
 
@@ -1277,7 +1281,6 @@ a:hover {
 
 .meta p {
   margin: 0;
-  font-weight: bold;
   font-size: 1.17em;
 }
 

@@ -4,11 +4,11 @@ Lorem ipsum sed justo. Curabitur consectetuer arcu. Etiam placerat est eget odio
 Nulla facilisi. Nulla facilisi. Mauris non neque. Suspendisse et diam. Sedvestibulum malesuada ipsum. Cras id magna. Nunc pharetra velit vitae eros.Vivamus.
 ----
 Friends:
-Nemecorp
-TicTacToeTen
-BabetteMode&#0153;
-Epic Uno
-CodeArmory
-OneTwoFifty.org
-Water.org
-Epilepsey Foundation
+[Nemecorp](#)
+[TicTacToeTen](#)
+[BabetteMode&#0153;](#)
+[Epic Uno](#)
+[CodeArmory](#)
+[OneTwoFifty.org](#)
+[Water.org](#)
+[Epilepsey Foundation](#)

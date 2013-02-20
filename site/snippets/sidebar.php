@@ -9,7 +9,7 @@
     </form>
   </div>
   <div class="rss-subscribe title">
-    <span class="right social-icon rss"></span>
+    <span class="right icon rss"></span>
     <a href="<?php echo url('blllog/feed') ?>">Feed on this</a>
   </div>
   <div class="like-button title">
@@ -53,7 +53,7 @@
   </div>
   <div class="amped-for">
     <div class="title">
-      <span class="icon right power"></span>
+      <span class="icon right bolt"></span>
       Amped about
     </div>
     <div class="mini-grid clearfix">
@@ -65,7 +65,7 @@
       <?php endforeach; ?>
     </div>
   </div>
-  <div class="categories">
+  <!--<div class="categories">
     <div class="title">
       <span class="icon right list"></span>
       Categories
@@ -78,7 +78,7 @@
         <li><a href="<?php echo $tag->url(); ?>"><?php echo ucwords($tag->name());?></a></li>
       <?php endforeach; ?>
     </ul>
-  </div>
+  </div>-->
   <div class="archives">
     <div class="title">
       <span class="icon right folder"></span>
@@ -89,17 +89,21 @@
         $all_posts = $page->children()->visible()->flip();
         $months = array();
         $currentMonth = (int)date('m');
-        for($x = $currentMonth; $x > $currentMonth-12; $x--) {
+        $currentYear = (int)date('Y');
+        $lastMonth = (int)date('m',$all_posts->last()->date());
+        $lastYear = (int)date('Y',$all_posts->last()->date());
+        $diff = ($currentYear * 12 + $currentMonth) - ($lastYear * 12 + $lastMonth) + 1;
+        for($x = $currentMonth; $x > $currentMonth - $diff; $x--) {
           $month = date('F', mktime(0,0,0,$x,1));
           $year = date('Y', mktime(0, 0, 0, $x, 1));
           $count = 0;
           foreach($all_posts->_ as $key => $p) {
-            if (strftime('%B', $p->date()) == $month) {
+            if (strftime('%B', $p->date()) == $month && strftime('%Y', $p->date()) == $year) {
               $count++;
             }
           }
       ?>
-        <li><a href="<?php echo url('/blllog/year:' . $year . '/month:' . strtolower($month)) ?>"><?php echo $month . ' ' . $year . ' (' . $count . ')'; ?></a></li>
+        <li><a href="<?php echo url('/blog/year:' . $year . '/month:' . strtolower($month)) ?>"><?php echo $month . ' ' . $year . ' (' . $count . ')'; ?></a></li>
       <?php
         }
       ?>

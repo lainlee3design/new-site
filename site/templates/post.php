@@ -19,6 +19,12 @@
       </div>
       <div class="preview">
         <?php echo kirbytext($page->text()); ?>
+        <img title="separator blllog" src="http://lainlee3design.com/wp-content/uploads/2011/05/Separator_Blllog.png" alt="" width="614" height="18" />
+        <strong>Enjoyed this Post?</strong><br>
+
+        Share it with your friends! Click on the “Share”, “Like” or “Tweet” buttons <em><strong>below</strong></em> to share this post with your fans, followers and friends! OR Leave a comment below and strike up a conversation!
+
+        <img title="separator blllog" src="http://lainlee3design.com/wp-content/uploads/2011/05/Separator_Blllog.png" alt="" width="614" height="18" />
       </div>
       <div class="social">
         <!-- AddThis Button BEGIN -->

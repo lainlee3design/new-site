@@ -41,27 +41,22 @@
 <div class="work">
   <div class="container clearfix">
     <h2>Featured Work<a href="#" class="button right">View Full Portfolio</a></h2>
-    <div class="project-card">
-      <div class="thumbnail"><img src="" alt="" /></div>
-      <div class="project-meta">
-        <a href="#" class="name">Steel Town Native</a>
-        <a href="#" class="category">Identity</a>
+    <?php
+      $featured = $pages->find('portfolio')->children()->children()->filterBy('featured', 'true')->limit(3);
+      $size = sizeof($featured->_);
+      $i = 1;
+      foreach($featured as $project):
+    ?>
+      <div class="project-card <?php echo $i == $size ? 'last' : '' ?>">
+        <a href="<?php echo $project->url(); ?>">
+          <div class="thumbnail"><img src="<?php echo $project->files()->find('featured.jpg')->url(); ?>" alt="" /></div>
+        </a>
+        <div class="project-meta">
+          <a href="<?php echo $project->url(); ?>" class="name"><?php echo $project->title(); ?></a>
+          <a href="<?php echo $project->parent()->url(); ?>" class="category"><?php echo $project->category(); ?></a>
+        </div>
       </div>
-    </div>
-    <div class="project-card">
-      <div class="thumbnail"><img src="" alt="" /></div>
-      <div class="project-meta">
-        <a href="#" class="name">Steel Town Native</a>
-        <a href="#" class="category">Identity</a>
-      </div>
-    </div>
-    <div class="project-card last">
-      <div class="thumbnail"><img src="" alt="" /></div>
-      <div class="project-meta">
-        <a href="#" class="name">Steel Town Native</a>
-        <a href="#" class="category">Identity</a>
-      </div>
-    </div>
+    <?php $i++; endforeach; ?>
   </div>
 </div>
 <div class="stream">
@@ -78,11 +73,13 @@
       </div>
       <a href="" class="button black right">Read More</a>
     </div>
+    <?php $rand = array_rand($pages->find('testimonials')->files()->_); ?>
+    <?php $testimonial = $pages->find('testimonials')->files()->_[$rand]; ?>
     <div class="testimonial">
       <div class="head"><div class="triangle"></div>Testimonials <strong>//</strong></div>
-      <div class="quote">"<?php echo $page->testimonial(); ?>"</div>
-      <div class="name"><?php echo $page->testimonial_name(); ?></div>
-      <div class="title"><?php echo $page->testimonial_position(); ?></div>
+      <div class="quote">"<?php echo $testimonial->variables['text']; ?>"</div>
+      <div class="name"><?php echo $testimonial->variables['_name']; ?></div>
+      <div class="title"><?php echo $testimonial->variables['position']; ?></div>
     </div>
   </div>
 </div>

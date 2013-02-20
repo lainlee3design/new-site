@@ -1,5 +1,7 @@
 Title: Home
 ----
+Time Per Slide: 5
+----
 Accepting: Projects in Logo Design, iOS Design, Web Design & Motion
 Graphics 
 ----
@@ -13,3 +15,4 @@ mus. Aenean risus dui, volutpat.
 Testimonial Name: Jeff Miller
 ----
 Testimonial Position: Senior Director of Advertising
+

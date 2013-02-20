@@ -27,7 +27,7 @@
 // setup the path to your blog folder
 // make sure the folder is writable. 
 // change its permissions to 0755
-$root = dirname(__FILE__) . '/content/03-blllog';
+$root = dirname(__FILE__) . '/content/03-blog';
 
 // Your Wordpress blog url 
 $blog = 'http://lainlee3design.com/blog';

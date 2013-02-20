@@ -1,0 +1,9 @@
+Title: Animation Test
+----
+Author: Lain 3
+----
+Date: 2011-08-17 20:40:43
+----
+Text: Here's a little short video I'm working on.  Inspired by <a href="http://www.yuki-7.com/blog.php?blogid=2&amp;archive=2011-05" target="_blank">Kevin Dart's "Yuki 7"</a>, this video stars my character "The Professor", your quintessential 60s fez-cap-wearing, pipe-smoking bachelor with his band of go-go girls dancing behind him.  Just a way for me to practice different visual styles, and maybe get this dang song out of my head!  This is just a rough composition here, a way for me to test the visual style and comedic timing.  Hoping to have the final comp up by Friday, so check back then!
+
+<iframe src="http://player.vimeo.com/video/27834562?portrait=0" width="614" height="407" frameborder="0"></iframe>

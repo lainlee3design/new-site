@@ -1,0 +1,9 @@
+Title: New York Tee-ser
+----
+Author: Lain 3
+----
+Date: 2012-01-27 14:05:15
+----
+Text: Another awesome video from the good folks at T-World, about the humble t-shirt and how it's impacted a global culture.  My favorite part is at 4:55!
+<p style="padding-left: 30px;">"The t-shirt...it's funny because without that canvas, I think my life would've been really really boring...My fun level would've been (*raspberry)!"</p>
+<iframe src="http://player.vimeo.com/video/27940236?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="613" height="345"></iframe>

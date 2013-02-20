@@ -23,10 +23,12 @@
 </div>
 <div class="container clearfix" id="project-view">
   <div class="images">
-    <?php foreach($page->images() as $img): ?>
-    <div class="preview">
-      <img src="<?php echo $img->url(); ?>" alt="" />
-    </div>
+    <?php foreach($page->images() as $name => $img): ?>
+      <?php if ($name != "thumb.jpg" && $name != "featured.jpg"): ?>
+      <div class="preview">
+        <img src="<?php echo $img->url(); ?>" alt="" />
+      </div>
+      <?php endif; ?>
     <?php endforeach; ?>
   </div>
   <div class="meta">

@@ -38,16 +38,32 @@ $(function() {
       $message.text( "Responding to " + title + " - " );
   });
 
-  ss = new WebPro.Widget.ContentSlideShow( '.slider', {
-      autoPlay: true,
-      slideshowClassName: 'slider',
-      clipClassName: 'slider-clip',
-      viewClassName: 'slider-view',
-      slideClassName: 'slide',
-      slideLinkClassName: 'thumb',
-      nextClassName: 'slide-next',
-      prevClassName: 'slide-prev',
-      displayInterval: 4000,
-      plugins: [ WebPro.Widget.ContentSlideShow.carouselPlugin, WebPro.Widget.ContentSlideShow.disableThumbsPlugin ]
+  var scrollTo = function( $el ) {
+    $( 'html, body' ).animate({
+      scrollTop: $el.offset().top
+    }, 300);
+  }
+
+  var initialHash = window.location.hash.substring(1);
+  if ( initialHash ) {
+    scrollTo( $( '#' + initialHash ) );
+  }
+
+  $( '[data-scroll-to]' ).click( function( evt ) {
+    console.log('test');
+    var $this = $( this ),
+      id = $this.attr( 'data-scroll-to' ),
+      $target = $( id );
+
+    if ( $target.length ) {
+      evt.preventDefault();
+      $( 'html, body' ).animate({ scrollTop: $target.offset().top }, 300 );
+    }
   });
+
+  $( '.top.button' ).click( function( evt ) {
+    evt.preventDefault();
+    scrollTo( $( 'body' ) );
+  });
+
 });

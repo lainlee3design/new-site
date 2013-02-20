@@ -1,0 +1,9 @@
+Title:  L.A's Parkour School
+----
+Author: Lain 3
+----
+Date: 2011-04-04 23:35:26
+----
+Text: Not every post here on the Blllog™ has to be design related!  Having a background in gymnastics, I've always been fascinated by freerunning!  Here's a promo video for the Tempest Freerunning Academy, L.A's first school for parkour!  Incidentally, this place looks just how I always imagined my house gym looking someday, like <a href="http://www.youtube.com/watch?v=hJeEKTs2ffA">Lara Croft's training room</a>.
+
+<object style="height: 390px; width: 614px;"><param name="movie" value="http://www.youtube.com/v/1fouvwilGWc?version=3" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed type="application/x-shockwave-flash" width="614" height="390" src="http://www.youtube.com/v/1fouvwilGWc?version=3" allowfullscreen="true" allowscriptaccess="always"></embed></object>

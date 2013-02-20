@@ -1,0 +1,12 @@
+Title: Halo 4 BTS Doc
+----
+Author: Lain 3
+----
+Date: 2012-04-05 12:59:26
+----
+Text: This is quite a treat for die-hard Halo fans.  Of course, we all remember how Bungie announced they wouldn't release another Halo game featuring Master Chief as the main protagonist after Halo: 3.  Then of course, they released Halo: Reach and we were all a bit disappointed, though it was a refreshing take on the series.  But doing an origin game wasn't quite what the series needed, or more accurately, not what fans needed.  The true fans wanted to see what we'd been waiting to see since the original Halo game - beefed up graphics, story, and game play dynamics.  Despite some amazing marketing and promotional campaigns, it always seemed as if the marketing was stronger than the game play (<a href="http://youtu.be/C3zqdM9TL1E" target="_blank">Example #1</a>, <a href="http://youtu.be/cuQzc_IXJ3s" target="_blank">Example #2</a>, <a href="http://youtu.be/kzkL-vg8MHE" target="_blank">Example #3</a>, <a href="http://youtu.be/AqT5x-HaWtg" target="_blank">Example #4</a>).
+
+But with the reveal of the new Halo: 4 game being released by 343 Studios, both new life and new hope are being breathed into the franchise.  Check out this behind-the-scenes look at the new Halo game!  What do you think?
+
+<script type='text/javascript' src='http://static.gamesradar.com/js/libs/bcgate-min.js'></script><object id='myExperience1485624908001' class='GamesRadarExperience'><param name='bgcolor' value='#FFFFFF' /><param name='width' value='610' /><param name='height' value='343' /><param name='playerID' value='791221702001' /><param name='playerKey' value='AQ~~,AAAAj351Crk~,sG79KNLUHM7t4wPNwP6i2PbhKUgSMFHD' /><param name='isVid' value='true' /><param name='isUI' value='true'><param name='dynamicStreaming' value='true' /><param name='@videoPlayer' value='1485624908001' /></object>
+

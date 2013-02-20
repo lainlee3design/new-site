@@ -3,9 +3,9 @@
 <div class="container">
   <ul class="subnav clearfix">
     <?php $nav = array('branding' => 'Branding + Identity', 'illustration' => 'Illustration', 'web' => 'Web', 'other' => 'Other'); ?>
-    <li class="<?php echo $category ? '' : 'active'; ?>">
-      <a href="<?php echo $category ? $page->parent()->url() : $page->url() ?>">All</a>
-    </li>
+      <li class="<?php echo $category ? '' : 'active'; ?>">
+        <a href="<?php echo $category ? $page->parent()->url() : $page->url() ?>">All</a>
+      </li>
     <?php
       foreach($nav as $key => $n):
     ?>
@@ -36,7 +36,7 @@
         $i++;
       ?>
       <a href="<?php echo $thumb->url() . $filter; ?>" class="work-thumbnail">
-        <img src="<?php echo $thumb->images()->first()->url(); ?>" alt="" />
+        <img src="<?php echo $thumb->files()->find('thumb.jpg')->url(); ?>" alt="" />
       </a>
     <?php endforeach; ?>
   </div>

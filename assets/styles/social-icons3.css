@@ -1,0 +1,90 @@
+.icon{ background:url(../images/social-icons3.png) top left no-repeat; display: inline-block; }
+.title .icon.xbox{ width:35px; height:26px; background-position:0 0; top: -2px; }
+.social .icon.dribbble, .icon.dribbble{ width:35px; height:35px; background-position:-35px 0; }
+.social .icon.twitter{ width:35px; height:29px; background-position:-70px 0; }
+.social .icon.facebook{ width:35px; height:35px; background-position:-105px 0; }
+.social .icon.instagram{ width:35px; height:35px; background-position:-140px 0; }
+.title .icon.folder{ width:35px; height:23px; background-position:-175px 0; top: -2px; }
+.title .icon.list{ width:35px; height:23px; background-position:-210px 0; top: -2px; }
+.title .icon.bolt{ width:31px; height:35px; background-position:-245px 0; }
+.title .icon.rss{ width:35px; height:35px; background-position:-276px 0; }
+.title .icon.like{ width:35px; height:30px; background-position:-311px 0; }
+.title .icon.search{ width:31px; height:33px; background-position:-346px 0; }
+.icon.blue.xbox{ width:35px; height:26px; background-position:-377px 0; }
+.social .icon.dribbble:hover{ width:35px; height:35px; background-position:-412px 0; }
+.social .icon.dribbble:hover{ width:35px; height:35px; background-position:-412px 0; }
+.social .icon.twitter:hover{ width:35px; height:29px; background-position:-447px 0; }
+.social .icon.facebook:hover{ width:35px; height:35px; background-position:-482px 0; }
+.social .icon.instagram:hover{ width:35px; height:35px; background-position:-517px 0; }
+.icon.blue.folder{ width:35px; height:23px; background-position:-552px 0; }
+.icon.blue.list{ width:35px; height:23px; background-position:-587px 0; }
+.icon.blue.bolt{ width:31px; height:35px; background-position:-622px 0; }
+.icon.blue.rss{ width:35px; height:35px; background-position:-653px 0; }
+.icon.blue.like{ width:35px; height:30px; background-position:-688px 0; }
+.icon.blue.search{ width:31px; height:33px; background-position:-723px 0; }
+.icon.dark.xbox{ width:35px; height:26px; background-position:-754px 0; }
+.icon.dark.dribbble{ width:35px; height:35px; background-position:-789px 0; }
+.icon.dark.twitter{ width:35px; height:29px; background-position:-824px 0; }
+.icon.dark.facebook{ width:35px; height:35px; background-position:-859px 0; }
+.icon.dark.instagram{ width:35px; height:35px; background-position:-894px 0; }
+.icon.dark.folder{ width:35px; height:23px; background-position:-929px 0; }
+.icon.dark.list{ width:35px; height:23px; background-position:-964px 0; }
+.icon.dark.bolt{ width:31px; height:35px; background-position:-999px 0; }
+.icon.dark.rss{ width:35px; height:35px; background-position:-1030px 0; }
+.icon.dark.like{ width:35px; height:30px; background-position:-1065px 0; }
+.icon.dark.search{ width:31px; height:33px; background-position:-1100px 0; }
+.icon.yellow.xbox{ width:35px; height:26px; background-position:-1131px 0; }
+.icon.yellow.dribbble{ width:35px; height:35px; background-position:-1166px 0; }
+.icon.yellow.twitter{ width:35px; height:29px; background-position:-1201px 0; }
+.icon.yellow.facebook{ width:35px; height:35px; background-position:-1236px 0; }
+.icon.yellow.instagram{ width:35px; height:35px; background-position:-1271px 0; }
+.icon.yellow.folder{ width:35px; height:23px; background-position:-1306px 0; }
+.icon.yellow.list{ width:35px; height:23px; background-position:-1341px 0; }
+.icon.yellow.bolt{ width:31px; height:35px; background-position:-1376px 0; }
+.icon.rss:hover{ width:35px; height:35px; background-position:-1407px 0; }
+.icon.yellow.like{ width:35px; height:30px; background-position:-1442px 0; }
+.icon.search:hover{ width:31px; height:33px; background-position:-1477px 0; }
+.icon.small.xbox{ width:29px; height:22px; background-position:-1508px 0; }
+.icon.small.dribbble{ width:29px; height:29px; background-position:-1537px 0; }
+.icon.small.twitter{ width:29px; height:25px; background-position:-1566px 0; }
+.icon.small.facebook{ width:29px; height:29px; background-position:-1595px 0; }
+.icon.small.instagram{ width:29px; height:29px; background-position:-1624px 0; }
+.icon.small.folder{ width:29px; height:19px; background-position:-1653px 0; }
+.icon.small.list{ width:29px; height:19px; background-position:-1682px 0; }
+.icon.small.bolt{ width:25px; height:29px; background-position:-1711px 0; }
+.icon.small.rss{ width:29px; height:29px; background-position:-1736px 0; }
+.icon.small.like{ width:29px; height:25px; background-position:-1765px 0; }
+.icon.small.search{ width:25px; height:29px; background-position:-1794px 0; }
+.icon.small.blue.xbox{ width:29px; height:22px; background-position:-1819px 0; }
+.icon.small.blue.dribbble{ width:29px; height:29px; background-position:-1848px 0; }
+.icon.small.blue.twitter{ width:29px; height:25px; background-position:-1877px 0; }
+.icon.small.blue.facebook{ width:29px; height:29px; background-position:-1906px 0; }
+.icon.small.blue.instagram{ width:29px; height:29px; background-position:-1935px 0; }
+.icon.small.blue.folder{ width:29px; height:19px; background-position:-1964px 0; }
+.icon.small.blue.list{ width:29px; height:19px; background-position:-1993px 0; }
+.icon.small.blue.bolt{ width:25px; height:29px; background-position:-2022px 0; }
+.icon.small.blue.rss{ width:29px; height:29px; background-position:-2047px 0; }
+.icon.small.blue.like{ width:29px; height:25px; background-position:-2076px 0; }
+.icon.small.blue.search{ width:25px; height:29px; background-position:-2105px 0; }
+.icon.small.dark.xbox{ width:29px; height:22px; background-position:-2130px 0; }
+.icon.small.dark.dribbble{ width:29px; height:29px; background-position:-2159px 0; }
+.icon.small.dark.twitter{ width:29px; height:25px; background-position:-2188px 0; }
+.icon.small.dark.facebook{ width:29px; height:29px; background-position:-2217px 0; }
+.icon.small.dark.instagram{ width:29px; height:29px; background-position:-2246px 0; }
+.icon.small.dark.folder{ width:29px; height:19px; background-position:-2275px 0; }
+.icon.small.dark.list{ width:29px; height:19px; background-position:-2304px 0; }
+.icon.small.dark.bolt{ width:25px; height:29px; background-position:-2333px 0; }
+.icon.small.dark.rss{ width:29px; height:29px; background-position:-2358px 0; }
+.icon.small.dark.like{ width:29px; height:25px; background-position:-2387px 0; }
+.icon.small.dark.search{ width:25px; height:29px; background-position:-2416px 0; }
+.icon.small.yellow.xbox{ width:29px; height:22px; background-position:-2441px 0; }
+.icon.small.dribbble:hover{ width:29px; height:29px; background-position:-2470px 0; }
+.icon.small.twitter:hover{ width:29px; height:25px; background-position:-2499px 0; }
+.icon.small.facebook:hover{ width:29px; height:29px; background-position:-2528px 0; }
+.icon.small.instagram:hover{ width:29px; height:29px; background-position:-2557px 0; }
+.icon.small.yellow.folder{ width:29px; height:19px; background-position:-2586px 0; }
+.icon.small.yellow.list{ width:29px; height:19px; background-position:-2615px 0; }
+.icon.small.yellow.bolt{ width:25px; height:29px; background-position:-2644px 0; }
+.icon.small.yellow.rss{ width:29px; height:29px; background-position:-2669px 0; }
+.icon.small.yellow.like{ width:29px; height:25px; background-position:-2698px 0; }
+.icon.small.yellow.search{ width:25px; height:29px; background-position:-2727px 0; }

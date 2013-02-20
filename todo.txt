@@ -1,5 +1,2 @@
 #TODO
-- Contact form
-- Link to post author?
-- Links
 - Minification

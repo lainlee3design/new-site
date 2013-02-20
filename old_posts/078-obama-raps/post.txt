@@ -1,0 +1,40 @@
+Title: Obama Raps
+----
+Author: Lain 3
+----
+Date: 2012-02-27 11:46:38
+----
+Text: Funny comedic short here by the homies <a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CDwQFjAA&amp;url=http%3A%2F%2Fwww.comedycentral.com%2Fshows%2Fkey-and-peele%2Findex.jhtml&amp;ei=9M1LT4XOOuTgiAKJzZnaDQ&amp;usg=AFQjCNE5VwexlY0U9x3wHsQJiAv_c0zGdg&amp;sig2=blqxuHlWUDO8ltQPFiZYmw" target="_blank">Key &amp; Peele,</a> my <a href="http://www.comedycentral.com/videos/index.jhtml?videoId=407884&amp;title=black-boy-s-booty" target="_blank">mixed brothas</a> from otha muthas! Check them out every Tuesday night at 10:30 on <a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CDwQFjAA&amp;url=http%3A%2F%2Fwww.comedycentral.com%2Fshows%2Fkey-and-peele%2Findex.jhtml&amp;ei=9M1LT4XOOuTgiAKJzZnaDQ&amp;usg=AFQjCNE5VwexlY0U9x3wHsQJiAv_c0zGdg&amp;sig2=blqxuHlWUDO8ltQPFiZYmw" target="_blank">Comedy Central</a>.
+
+&nbsp;
+<table style="font: 11px arial; color: #333; background-color: #f5f5f5;" width="512" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="background-color: #e5e5e5;" valign="middle">
+<td style="padding: 2px 1px 0px 5px; text-align: center;"><a style="color: #333; text-decoration: none; font-weight: bold;" href="http://www.comedycentral.com/shows/key-and-peele/index.jhtml" target="_blank">Key and Peele</a></td>
+<td style="padding: 2px 5px 0px; font-weight: bold; text-align: center;">Tuesdays 10:30/9:30c</td>
+</tr>
+<tr style="height: 14px;" valign="middle">
+<td style="padding: 2px 1px 0px 5px;" colspan="2"><a style="color: #333; text-decoration: none; font-weight: bold;" href="http://www.comedycentral.com/videos/index.jhtml?videoId=407816&amp;title=preview-obama-raps" target="_blank">Obama Raps</a></td>
+</tr>
+<tr style="height: 14px; background-color: #353535;" valign="middle">
+<td style="padding: 2px 5px 0px 5px; width: 512px; overflow: hidden; text-align: right;" colspan="2"><a style="color: #96deff; text-decoration: none; font-weight: bold;" href="http://www.comedycentral.com/" target="_blank">www.comedycentral.com</a></td>
+</tr>
+<tr valign="middle">
+<td style="padding: 0px;" colspan="2"><object style="display: block;" width="512" height="288" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://media.mtvnservices.com/mgid:cms:item:comedycentral.com:407816" /><param name="wmode" value="window" /><param name="allowfullscreen" value="true" /><param name="flashvars" value="autoPlay=false" /><param name="allowscriptaccess" value="always" /><param name="allownetworking" value="all" /><embed style="display: block;" width="512" height="288" type="application/x-shockwave-flash" src="http://media.mtvnservices.com/mgid:cms:item:comedycentral.com:407816" wmode="window" allowfullscreen="true" flashvars="autoPlay=false" allowscriptaccess="always" allownetworking="all" /></object></td>
+</tr>
+<tr style="height: 18px;" valign="middle">
+<td style="padding: 0px;" colspan="2">
+<table style="margin: 0px; text-align: center;" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr valign="middle">
+<td style="padding: 3px; width: 33%;"><a style="font: 10px arial; color: #333; text-decoration: none;" href="http://www.comedycentral.com/" target="_blank">Comedy Central</a></td>
+<td style="padding: 3px; width: 33%;"><a style="font: 10px arial; color: #333; text-decoration: none;" href="http://www.comedycentral.com/funny_videos/index.jhtml" target="_blank">Funny Videos</a></td>
+<td style="padding: 3px; width: 33%;"><a style="font: 10px arial; color: #333; text-decoration: none;" href="http://www.comedycentral.com/shows/index.jhtml" target="_blank">Funny TV Shows</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+&nbsp;

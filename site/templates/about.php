@@ -5,16 +5,16 @@
     <img src="assets/images/fantastic.png" alt="" id="fantastic" />
     <ul class="subnav clearfix">
       <li class="active">
-        <a href="#about">About</a>
+        <a href="#" data-scroll-to="#about">About</a>
       </li>
       <li>
-        <a href="#stats-profile">Stats + Profile</a>
+        <a href="#" data-scroll-to="#stats-profile">Stats + Profile</a>
       </li>
       <li>
-        <a href="#faq">FAQ</a>
+        <a href="#" data-scroll-to="#faq">FAQ</a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a href="#" data-scroll-to="#contact">Contact</a>
       </li>
     </ul>
     <h2 id="about"><?php echo $page->title() ?></h2>
@@ -30,7 +30,7 @@
 </div>
 <div id="stats-profile" class="stats-profile">
   <div class="container clearfix">
-    <a href="#about" class="button">Top</a>
+    <a href="#about" class="top button">Top</a>
     <div class="stats">
       <h2>Stats</h2>
       <?php
@@ -60,7 +60,7 @@
 </div>
 <div id="faq" class="faq">
   <div class="container">
-    <a href="#about" class="button black">Top</a>
+    <a href="#about" class="top button black">Top</a>
     <h2>FAQ</h2>
     <?php
       $faq = $page->faq();

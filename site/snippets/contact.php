@@ -12,10 +12,10 @@
       <div class="clearfix phone"><img src="assets/images/iphone.png"><p><?php echo $contact->phone_number(); ?></p></div>
       <div class="clearfix email"><img src="assets/images/mail.png"><p><?php echo $contact->email_address(); ?></p></div>
       <div class="social">
-        <a class="social-icon facebook" href="http://facebook.com/lainlee3design" target="_blank"></a>
-        <a class="social-icon twitter" href="http://twitter.com/lainlee3design" target="_blank"></a>
-        <a class="social-icon dribbble" href="http://dribbble.com/lainlee3design" target="_blank"></a>
-        <a class="social-icon instagram" href="http://instagram.com/lainlee3" target="_blank"></a>
+        <a class="icon dark facebook" href="http://facebook.com/lainlee3design" target="_blank"></a>
+        <a class="icon dark twitter" href="http://twitter.com/lainlee3design" target="_blank"></a>
+        <a class="icon dark dribbble" href="http://dribbble.com/lainlee3design" target="_blank"></a>
+        <a class="icon dark instagram" href="http://instagram.com/lainlee3" target="_blank"></a>
       </div>
     </div>
   </div>
