@@ -1,2 +1,6 @@
 #TODO
-- Minification
+- Copy for:
+  - Footer about
+  - FAQ
+  - Slideshow images
+  - Blog categories

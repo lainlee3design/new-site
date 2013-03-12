@@ -14,6 +14,7 @@
         <a class="icon small twitter" href="http://twitter.com/lainlee3design" target="_blank"></a>
         <a class="icon small dribbble" href="http://dribbble.com/lainlee3design" target="_blank"></a>
         <a class="icon small instagram" href="http://instagram.com/lainlee3" target="_blank"></a>
+        <a class="icon small behance" href="http://behance.net/lainlee3design" target="_blank"></a>
       </div>
       <ul class="contact-nav">
         <li><a href="http://lainlee3design.basecamphq.com/">Client Login</a></li>

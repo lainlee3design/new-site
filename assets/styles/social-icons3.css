@@ -1,4 +1,4 @@
-.icon{ background:url(../images/social-icons3.png) top left no-repeat; display: inline-block; }
+.icon{ background:url(../images/final-icons-double.png) top left no-repeat; display: inline-block; background-size: 3008px 35px; }
 .title .icon.xbox{ width:35px; height:26px; background-position:0 0; top: -2px; }
 .social .icon.dribbble, .icon.dribbble{ width:35px; height:35px; background-position:-35px 0; }
 .social .icon.twitter{ width:35px; height:29px; background-position:-70px 0; }
@@ -88,3 +88,11 @@
 .icon.small.yellow.rss{ width:29px; height:29px; background-position:-2669px 0; }
 .icon.small.yellow.like{ width:29px; height:25px; background-position:-2698px 0; }
 .icon.small.yellow.search{ width:25px; height:29px; background-position:-2727px 0; }
+.icon.small.behance{ width: 29px; height: 29px; background-position: -2752px 0; }
+.icon.small.yellow.behance{ width: 29px; height: 29px; background-position: -2781px 0; }
+.icon.small.blue.behance{ width: 29px; height: 29px; background-position: -2810px 0; }
+.icon.small.dark.behance{ width: 29px; height: 29px; background-position: -2839px 0; }
+.icon.behance{ width: 35px; height: 35px; background-position: -2868px 0; }
+.icon.yellow.behance{ width: 35px; height: 35px; background-position: -2903px 0; }
+.icon.blue.behance{ width: 35px; height: 35px; background-position: -2938px 0; }
+.icon.dark.behance{ width: 35px; height: 35px; background-position: -2973px 0; }

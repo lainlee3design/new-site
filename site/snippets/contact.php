@@ -16,6 +16,7 @@
         <a class="icon dark twitter" href="http://twitter.com/lainlee3design" target="_blank"></a>
         <a class="icon dark dribbble" href="http://dribbble.com/lainlee3design" target="_blank"></a>
         <a class="icon dark instagram" href="http://instagram.com/lainlee3" target="_blank"></a>
+        <a class="icon dark behance" href="http://behance.net/lainlee3design" target="_blank"></a>
       </div>
     </div>
   </div>
