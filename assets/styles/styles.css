@@ -823,11 +823,13 @@ a:hover {
 
 .main .subnav li {
   float: left;
-  padding: 4px 14px;
+  padding: 4px 12px;
   margin: 0 1px;
   font-size: 14px;
   font-weight: bold;
   color: #333;
+  position: relative;
+  top: 5px;
 }
 
 .main .subnav li:hover, .main .subnav li.active {

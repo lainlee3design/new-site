@@ -40,20 +40,23 @@
 </div>
 <div class="work">
   <div class="container clearfix">
-    <h2>Featured Work<a href="#" class="button right">View Full Portfolio</a></h2>
+    <?php $portfolio_url = $pages->find('portfolio')->url(); ?>
+    <h2>Featured Work<a href="<?php echo $portfolio_url ?>" class="button right">View Full Portfolio</a></h2>
     <?php
-      $featured = $pages->find('portfolio')->children()->children()->filterBy('featured', 'true')->limit(3);
+      $featured = $pages->find('portfolio')->children()->filterBy('featured', 'true')->limit(3);
       $size = sizeof($featured->_);
       $i = 1;
       foreach($featured as $project):
+        $category = explode(',', $project->categories());
+        $category = $category[0];
     ?>
       <div class="project-card <?php echo $i == $size ? 'last' : '' ?>">
         <a href="<?php echo $project->url(); ?>">
-          <div class="thumbnail"><img src="<?php echo $project->files()->find('featured.jpg')->url(); ?>" alt="" /></div>
+          <div class="thumbnail"><img src="<?php echo $project->files()->find('featured.png')->url(); ?>" alt="" /></div>
         </a>
         <div class="project-meta">
           <a href="<?php echo $project->url(); ?>" class="name"><?php echo $project->title(); ?></a>
-          <a href="<?php echo $project->parent()->url(); ?>" class="category"><?php echo $project->category(); ?></a>
+          <a href="<?php echo $portfolio_url . '/categories:' . $category; ?>" class="category"><?php echo $category; ?></a>
         </div>
       </div>
     <?php $i++; endforeach; ?>
